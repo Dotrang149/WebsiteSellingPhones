@@ -1,5 +1,7 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WebSellingPhone.Data;
+using WebSellingPhone.Data.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,7 +19,10 @@ builder.Services.AddDbContext<PhoneWebDbContext>(option =>
     option.UseSqlServer(connectionString);
 });
 
-
+builder.Services
+    .AddIdentity<Users, IdentityRole>()
+    .AddEntityFrameworkStores<PhoneWebDbContext>()
+    .AddDefaultTokenProviders();
 
 var app = builder.Build();
 
