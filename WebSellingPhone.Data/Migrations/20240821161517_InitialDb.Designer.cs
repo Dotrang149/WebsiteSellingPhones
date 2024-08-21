@@ -12,7 +12,7 @@ using WebSellingPhone.Data;
 namespace WebSellingPhone.Data.Migrations
 {
     [DbContext(typeof(PhoneWebDbContext))]
-    [Migration("20240821160057_InitialDb")]
+    [Migration("20240821161517_InitialDb")]
     partial class InitialDb
     {
         /// <inheritdoc />
