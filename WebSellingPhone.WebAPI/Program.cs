@@ -6,12 +6,6 @@ using WebSellingPhone.Data.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 builder.Services.AddDbContext<PhoneWebDbContext>(option =>
@@ -19,10 +13,17 @@ builder.Services.AddDbContext<PhoneWebDbContext>(option =>
     option.UseSqlServer(connectionString);
 });
 
-builder.Services
-    .AddIdentity<Users, IdentityRole>()
-    .AddEntityFrameworkStores<PhoneWebDbContext>()
-    .AddDefaultTokenProviders();
+
+
+
+builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+
+
+
 
 var app = builder.Build();
 

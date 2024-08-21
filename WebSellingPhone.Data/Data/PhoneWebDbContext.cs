@@ -4,14 +4,15 @@ using WebSellingPhone.Data.Models;
 
 namespace WebSellingPhone.Data
 {
-    public class PhoneWebDbContext : IdentityDbContext<Users,Role,Guid>
+    public class PhoneWebDbContext : IdentityDbContext<Users, Role, Guid>
     {
-        public PhoneWebDbContext(DbContextOptions<PhoneWebDbContext> options): base(options) 
+        public PhoneWebDbContext(DbContextOptions<PhoneWebDbContext> options) : base(options)
         {
+
         }
 
 
-        public DbSet<Users> Users {  get; set; }
+        public DbSet<Users> Users { get; set; }
         public DbSet<Brand> Brands { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Product> Products { get; set; }
@@ -19,11 +20,11 @@ namespace WebSellingPhone.Data
         public DbSet<Promotion> Promotion { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
 
-        
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-           
+            base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Users>()
                 .HasMany<Order>(u => u.Orders)
@@ -31,7 +32,7 @@ namespace WebSellingPhone.Data
                 .HasForeignKey(o => o.UserOrderId).OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<Promotion>()
-                .HasMany<Product>(pm  => pm.Products)
+                .HasMany<Product>(pm => pm.Products)
                 .WithOne(pr => pr.Promotion)
                 .HasForeignKey(pr => pr.PromotionProductId).OnDelete(DeleteBehavior.Cascade);
 
@@ -41,7 +42,7 @@ namespace WebSellingPhone.Data
                 .HasForeignKey(p => p.BrandProductId).OnDelete(DeleteBehavior.Cascade);
 
 
-            modelBuilder.Entity<OrderDetail>().HasKey(po => new {po.OrderId, po.ProductId});
+            modelBuilder.Entity<OrderDetail>().HasKey(po => new { po.OrderId, po.ProductId });
             modelBuilder.Entity<OrderDetail>()
                 .HasOne<Product>(po => po.Products)
                 .WithMany(p => p.ProductOrders)
@@ -51,7 +52,7 @@ namespace WebSellingPhone.Data
                 .WithMany(o => o.ProductOrders)
                 .HasForeignKey(po => po.OrderId);
 
-           modelBuilder.Entity<Review>().HasKey(r => new {r.ProductId,r.UserId});
+            modelBuilder.Entity<Review>().HasKey(r => new { r.ProductId, r.UserId });
             modelBuilder.Entity<Review>()
                 .HasOne<Product>(r => r.Products)
                 .WithMany(p => p.Reviews)
@@ -61,7 +62,7 @@ namespace WebSellingPhone.Data
                 .WithMany(u => u.Reviews)
                 .HasForeignKey(r => r.UserId);
 
-           
+
         }
     }
 }
