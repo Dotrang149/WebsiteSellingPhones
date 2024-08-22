@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
+using System.Text.Json.Serialization;
 using WebSellingPhone.Bussiness.Service;
 using WebSellingPhone.Data;
 using WebSellingPhone.Data.Infrastructure;
@@ -18,6 +19,12 @@ builder.Services.AddDbContext<PhoneWebDbContext>(option =>
 {
     option.UseSqlServer(connectionString);
 });
+
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
+    });
 
 //add service
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
