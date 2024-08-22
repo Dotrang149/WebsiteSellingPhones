@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace WebSellingPhone.Bussiness.ViewModel
 {
-    public class RegisterViewModel
+    public class BrandVm
     {
-        public required string UserName { get; set; }
-        public required string Password { get; set; }
-      
+        public Guid Id { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
     }
 }
