@@ -21,6 +21,7 @@ namespace WebSellingPhone.Data.Infrastructure
 
         IGenericRepository<OrderDetail> OrderDetailRepository { get; }
         IGenericRepository<Brand> BrandRepository { get; }
+        IGenericRepository<RefreshToken> RefreshTokenRepository { get; }
         IGenericRepository<TEntity> GenericRepository<TEntity>() where TEntity : class;
 
         int SaveChanges();

@@ -8,5 +8,7 @@ namespace WebSellingPhone.Data.Models
         public ICollection<Order> Orders { get; set; }
         public ICollection<Review> Reviews { get; set; }
 
+        public ICollection<RefreshToken> RefreshTokens { get; set; }
+
     }
 }

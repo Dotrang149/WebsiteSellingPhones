@@ -19,6 +19,7 @@ namespace WebSellingPhone.Data.Infrastructure
         private IGenericRepository<Order>? _orderRepository;
         private IGenericRepository<OrderDetail>? _orderDetailRepository;
         private IGenericRepository<Brand>? _brandRepository;
+        private IGenericRepository<RefreshToken>? _refreshTokenRepository;
 
         public UnitOfWork(PhoneWebDbContext context)
         {
@@ -42,6 +43,8 @@ namespace WebSellingPhone.Data.Infrastructure
         public IGenericRepository<OrderDetail> OrderDetailRepository => _orderDetailRepository;
 
         public IGenericRepository<Brand> BrandRepository => _brandRepository;
+
+        public IGenericRepository<RefreshToken> RefreshTokenRepository => _refreshTokenRepository;
 
         public async Task BeginTransactionAsync()
         {

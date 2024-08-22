@@ -20,7 +20,7 @@ namespace WebSellingPhone.Data
         public DbSet<Promotion> Promotion { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
 
-
+        public DbSet<RefreshToken> RefreshToken { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -30,6 +30,11 @@ namespace WebSellingPhone.Data
                 .HasMany<Order>(u => u.Orders)
                 .WithOne(o => o.User)
                 .HasForeignKey(o => o.UserOrderId).OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Users>()
+                .HasMany<RefreshToken>(u => u.RefreshTokens)
+                .WithOne(o => o.User)
+                .HasForeignKey(o => o.UserId).OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<Promotion>()
                 .HasMany<Product>(pm => pm.Products)
