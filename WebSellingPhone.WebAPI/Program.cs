@@ -20,6 +20,7 @@ builder.Services.AddDbContext<PhoneWebDbContext>(option =>
     option.UseSqlServer(connectionString);
 });
 
+//configuring the JSON serializer
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
