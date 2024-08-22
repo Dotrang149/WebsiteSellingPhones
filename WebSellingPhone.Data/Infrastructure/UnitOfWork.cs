@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WebSellingPhone.Data.Models;
+﻿using WebSellingPhone.Data.Models;
 using WebSellingPhone.Data.Repository;
 
 namespace WebSellingPhone.Data.Infrastructure
@@ -27,21 +22,21 @@ namespace WebSellingPhone.Data.Infrastructure
 
         public PhoneWebDbContext Context => _context;
 
-        public IGenericRepository<Users> UserRepository => _userRepository;
+        public IGenericRepository<Users> UserRepository => _userRepository ??= new GenericRepository<Users>(_context);
 
-        public IGenericRepository<Role> RoleRepository => _roleRepository;
+        public IGenericRepository<Role> RoleRepository => _roleRepository ??= new GenericRepository<Role>(_context);
 
-        public IGenericRepository<Review> ReviewRepository => _reviewRepository;
+        public IGenericRepository<Review> ReviewRepository => _reviewRepository ??= new GenericRepository<Review>(_context);
 
-        public IGenericRepository<Promotion> PromotionRepository => _promotionRepository;
+        public IGenericRepository<Promotion> PromotionRepository => _promotionRepository ??= new GenericRepository<Promotion>(_context);
 
-        public IGenericRepository<Product> ProductRepository => _productRepository;
+        public IGenericRepository<Product> ProductRepository => _productRepository ??= new GenericRepository<Product>(_context);
 
-        public IGenericRepository<Order> OrderRepository => _orderRepository;
+        public IGenericRepository<Order> OrderRepository => _orderRepository ??= new GenericRepository<Order>(_context);
 
-        public IGenericRepository<OrderDetail> OrderDetailRepository => _orderDetailRepository;
+        public IGenericRepository<OrderDetail> OrderDetailRepository => _orderDetailRepository ??= new GenericRepository<OrderDetail>(_context);
 
-        public IGenericRepository<Brand> BrandRepository => _brandRepository;
+        public IGenericRepository<Brand> BrandRepository => _brandRepository ??= new GenericRepository<Brand>(_context);
 
         public async Task BeginTransactionAsync()
         {

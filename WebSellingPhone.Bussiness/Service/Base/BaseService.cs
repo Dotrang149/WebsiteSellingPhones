@@ -1,10 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 using WebSellingPhone.Bussiness.ViewModel;
 using WebSellingPhone.Data.Infrastructure;
 
@@ -64,7 +59,7 @@ namespace WebSellingPhone.Bussiness.Service.Base
         {
             if (entity == null)
             {
-                _logger.LogError("entity is null!");
+                _logger.LogError("Entity is null!");
                 throw new ArgumentNullException(nameof(entity));
             }
 

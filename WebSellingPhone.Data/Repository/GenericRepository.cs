@@ -20,7 +20,15 @@ namespace WebSellingPhone.Data.Repository
 
         public void Delete(Guid id)
         {
-            _dbSet.Remove(GetById(id));
+            var entity = GetById(id);
+            if (entity != null)
+            {
+                _dbSet.Remove(entity);
+            }
+            else
+            {
+                throw new ArgumentException($"Entity with id {id} not found.");
+            }
         }
 
         public void Delete(T entity)
