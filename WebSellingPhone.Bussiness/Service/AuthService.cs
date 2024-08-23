@@ -103,11 +103,25 @@ namespace WebSellingPhone.Bussiness.Service
         new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
         new Claim(JwtRegisteredClaimNames.Email, user.Email),
         new Claim(JwtRegisteredClaimNames.Sub, user.Email),
-        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-        new Claim(ClaimTypes.Role,"Admin"),
-        new Claim(ClaimTypes.Role,"Customer"),
-        new Claim(ClaimTypes.Role,"NO_USER")
+        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+        
     };
+
+            if (await _userManager.IsInRoleAsync(user, "Admin"))
+            {
+                authClaims.Add(new Claim(ClaimTypes.Role, "Admin"));
+            }
+
+            if (await _userManager.IsInRoleAsync(user, "Customer"))
+            {
+                authClaims.Add(new Claim(ClaimTypes.Role, "Customer"));
+            }
+
+            if (!await _userManager.IsInRoleAsync(user, "Admin") && !await _userManager.IsInRoleAsync(user, "Customer"))
+            {
+                authClaims.Add(new Claim(ClaimTypes.Role, "NO_USER"));
+            }
+
 
             var authSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_configuration["JWT:Secret"]));
 
