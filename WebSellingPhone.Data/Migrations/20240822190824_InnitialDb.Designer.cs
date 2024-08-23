@@ -12,8 +12,8 @@ using WebSellingPhone.Data;
 namespace WebSellingPhone.Data.Migrations
 {
     [DbContext(typeof(PhoneWebDbContext))]
-    [Migration("20240822160615_HoangAnhDb")]
-    partial class HoangAnhDb
+    [Migration("20240822190824_InnitialDb")]
+    partial class InnitialDb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

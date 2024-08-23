@@ -11,6 +11,7 @@ namespace WebSellingPhone.Bussiness.Service
 {
     public interface IOrderService : IBaseService<Order>
     {
+       
         Task<PaginatedResult<Order>> GetByPagingAsync(
             string filter = "",
             string sortBy = "",

@@ -12,8 +12,13 @@ using WebSellingPhone.Data;
 namespace WebSellingPhone.Data.Migrations
 {
     [DbContext(typeof(PhoneWebDbContext))]
+<<<<<<<< HEAD:WebSellingPhone.Data/Migrations/20240822080603_InitialDb.Designer.cs
     [Migration("20240822080603_InitialDb")]
     partial class InitialDb
+========
+    [Migration("20240822190824_InnitialDb")]
+    partial class InnitialDb
+>>>>>>>> origin/trang:WebSellingPhone.Data/Migrations/20240822190824_InnitialDb.Designer.cs
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
