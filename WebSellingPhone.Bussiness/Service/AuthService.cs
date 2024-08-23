@@ -161,17 +161,20 @@ namespace WebSellingPhone.Bussiness.Service
 
             var result = await _userManager.CreateAsync(user, registerViewModel.Password);
 
-            if (!result.Succeeded)
+            if (result.Succeeded)
             {
-                var errors = string.Join(", ", result.Errors.Select(e => e.Description));
-                throw new ArgumentException($"The user could not be created. Errors: {errors}");
+                await _userManager.AddToRoleAsync(user, "Customer");
+                return await LoginAsync(new LoginViewModel()
+                {
+                    UserName = registerViewModel.UserName,
+                    Password = registerViewModel.Password
+                });
             }
+            var errors = string.Join(", ", result.Errors.Select(e => e.Description));
+            throw new ArgumentException($"The user could not be created. Errors: {errors}");
+            
 
-            return await LoginAsync(new LoginViewModel()
-            {
-                UserName = registerViewModel.UserName,
-                Password = registerViewModel.Password      
-            });
+            
         }
 
         public async Task<bool> UpdateUserAsync(Users user)

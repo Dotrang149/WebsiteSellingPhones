@@ -10,7 +10,7 @@ using WebSellingPhone.Data.Models;
 namespace WebSellingPhone.WebAPI.Controllers
 {
 
-    [Authorize]   
+    [Authorize(Roles = "Customer")]
     [Route("api/[controller]")]
     [ApiController]
     public class ReviewController : ControllerBase

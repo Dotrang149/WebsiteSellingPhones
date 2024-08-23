@@ -7,6 +7,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using WebSellingPhone.Bussiness.Service;
 using WebSellingPhone.Data;
+using WebSellingPhone.Data.Data;
 using WebSellingPhone.Data.Infrastructure;
 using WebSellingPhone.Data.Models;
 
@@ -78,6 +79,13 @@ builder.Services
     .AddEntityFrameworkStores<PhoneWebDbContext>()
     .AddDefaultTokenProviders();
 
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "api/Auth/login";
+    options.AccessDeniedPath = "/Account/AccessDenied";
+});
+
+
 builder.Services
     .AddAuthentication(config =>
     {
@@ -103,6 +111,12 @@ builder.Services
 
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    await SeedData.Initialize(services);
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
