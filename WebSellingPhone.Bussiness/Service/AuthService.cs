@@ -193,11 +193,40 @@ namespace WebSellingPhone.Bussiness.Service
            
         }
 
-        public async Task<bool> UpdateUserAsync(Users user)
+        public async Task<bool> AdminUpdateUserAsync(Guid userId,UserViewModel userView)
         {
-            var result = await _userManager.UpdateAsync(user);
-            return result.Succeeded;
+            var existingUser = await _userManager.FindByIdAsync(userId.ToString());
+
+            if (existingUser != null)
+            {
+                existingUser.Email = userView.Email;
+                existingUser.UserName = userView.Name;
+                existingUser.PhoneNumber = userView.PhoneNumber;
+                existingUser.PasswordHash = userView.Password;
+
+                var result = await _userManager.UpdateAsync(existingUser);
+                return result.Succeeded;
+            }
+
+            return false;
         }
+
+        public async Task<bool> UpdateCustomerAsync(Guid userId, string newEmail, string newUserName)
+        {
+            var existingUser = await _userManager.FindByIdAsync(userId.ToString());
+
+            if (existingUser != null)
+            {
+                existingUser.Email = newEmail;
+                existingUser.UserName = newUserName;
+
+                var result = await _userManager.UpdateAsync(existingUser);
+                return result.Succeeded;
+            }
+
+            return false;
+        }
+
         public async Task<PaginatedResult<Users>> GetByPagingAsync(string filter = "", string sortBy = "", int pageIndex = 1, int pageSize = 10)
         {
             Func<IQueryable<Users>, IOrderedQueryable<Users>> orderBy = null;
@@ -219,9 +248,14 @@ namespace WebSellingPhone.Bussiness.Service
 
             return await GetAsync(filterQuery, orderBy, "", pageIndex, pageSize);
         }
+    }
+
+        
+
+    
 
         
 
        
-    }
-}
+   }
+

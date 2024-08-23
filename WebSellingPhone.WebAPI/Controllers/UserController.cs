@@ -142,17 +142,48 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
 
-
-        [Authorize(Roles = "Customer")]
-        [HttpPut("users")]
-        public async Task<IActionResult> UpdateUserAsync(Users user)
+        [Authorize(Policy = "AdminOnly")]
+        [HttpPut("users-by-admin")]
+        public async Task<IActionResult> UpdateByAdmin(Guid id, [FromBody] UserViewModel userViewModel)
         {
             try
             {
-                var updated = await _authService.UpdateUserAsync(user);
+                var existingUser = await _authService.GetUserByIdAsync(id);
+                if (existingUser == null)
+                {
+                    return NotFound($"User with ID {id} not found.");
+                }
+
+                var updated = await _authService.AdminUpdateUserAsync(id,userViewModel);
                 if (updated)
                 {
-                    return NoContent();
+                    return Ok();
+                }
+                else
+                {
+                    return BadRequest("Failed to update the user.");
+                }
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while updating the user.");
+            }
+        }
+
+
+
+
+        [Authorize(Policy = "CustomerOnly")]
+        [HttpPut("users-by-customer")]
+        public async Task<IActionResult> UpdateCustomerAsync(string name , string email)
+        {
+            try
+            {
+                var users = await _userManager.GetUserAsync(User);
+                var updated = await _authService.UpdateCustomerAsync(users.Id,email,name);
+                if (updated)
+                {
+                    return Ok();
                 }
                 else
                 {
