@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebSellingPhone.Bussiness.Service;
 using WebSellingPhone.Bussiness.ViewModel;
@@ -18,6 +19,8 @@ namespace WebSellingPhone.WebAPI.Controllers
             _logger = logger;
         }
 
+
+        [Authorize(Policy = "AdminOnly")]
         [HttpGet("get-all-order")]
         public async Task<IActionResult> GetQuizzes()
         {
@@ -35,6 +38,8 @@ namespace WebSellingPhone.WebAPI.Controllers
             return Ok(ordersDetailViewModels);
         }
 
+
+        [Authorize(Policy = "AdminOnly")]
         [HttpGet("order/{orderId}")]
         public async Task<IActionResult> GetOrderDetailsByOrderIdAsync(Guid orderId)
         {
@@ -54,6 +59,8 @@ namespace WebSellingPhone.WebAPI.Controllers
             }
         }
 
+
+        [Authorize(Policy = "AdminOnly")]
         [HttpGet("product/{productId}")]
         public async Task<IActionResult> GetOrderDetailsByProductIdAsync(Guid productId)
         {
@@ -73,6 +80,8 @@ namespace WebSellingPhone.WebAPI.Controllers
             }
         }
 
+
+        [Authorize(Policy = "AdminOnly")]
         [HttpPost]
         public async Task<IActionResult> CreateOrderDetailAsync([FromBody] OrderDetailVm orderDetailVm)
         {

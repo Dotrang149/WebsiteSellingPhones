@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebSellingPhone.Bussiness.Service;
@@ -18,8 +19,9 @@ namespace WebSellingPhone.WebAPI.Controllers
 
         }
 
+        [Authorize(Policy = "AdminOnly")]
         [HttpGet("get-all-order")]
-        public async Task<IActionResult> GetQuizzes()
+        public async Task<IActionResult> GetAllOrder()
         {
             var orders = await _orderService.GetAllAsync();
 
@@ -34,6 +36,8 @@ namespace WebSellingPhone.WebAPI.Controllers
             return Ok(ordersViewModels);
         }
 
+
+        [Authorize(Policy = "AdminOnly")]
         [HttpGet("get-order/{id}")]
         public async Task<IActionResult> GetOrderById(Guid id)
         {
@@ -54,6 +58,8 @@ namespace WebSellingPhone.WebAPI.Controllers
             return Ok(orderVm);
         }
 
+
+        [Authorize(Policy = "CustomerOnly")]
         [HttpPost("create-order")]
         public async Task<IActionResult> CreateOrder([FromBody] OrderVm orderVm)
         {
@@ -73,6 +79,8 @@ namespace WebSellingPhone.WebAPI.Controllers
             return CreatedAtAction(nameof(GetOrderById), new { id = order.Id }, orderVm);
         }
 
+
+        [Authorize(Policy = "CustomerOnly")]
         [HttpPut("update-order/{id}")]
         public async Task<IActionResult> UpdateOrder(Guid id, [FromBody] OrderVm orderVm)
         {
@@ -95,6 +103,7 @@ namespace WebSellingPhone.WebAPI.Controllers
             return NoContent();
         }
 
+        [Authorize(Policy = "CustomerOnly")]
         [HttpDelete("delete-order/{id}")]
         public async Task<IActionResult> DeleteOrder(Guid id)
         {

@@ -47,7 +47,7 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
 
-        [Authorize(Roles = "Admin")]
+        [Authorize(Policy = "AdminOnly")]
         [HttpGet("Get-All-Users")]
         public async Task<IActionResult> GetUsers()
         {
@@ -56,7 +56,7 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
 
-        [Authorize(Roles = "Admin")]
+        [Authorize(Policy = "AdminOnly")]
         [HttpGet("Get-by-id/{id}")]
         public async Task<IActionResult> GetById(Guid Id)
         {
@@ -66,8 +66,8 @@ namespace WebSellingPhone.WebAPI.Controllers
 
 
 
-        [Authorize(Roles = "Admin")]
-        [HttpGet]
+        [Authorize(Policy = "AdminOny")]
+        [HttpGet("get-user-by-page")]
         public async Task<IActionResult> GetUsersByPage([FromQuery] int page = 1, [FromQuery] int pageSize = 10, [FromQuery] string filter = "", [FromQuery] string sortBy = "")
         {
 
@@ -117,7 +117,7 @@ namespace WebSellingPhone.WebAPI.Controllers
 
 
 
-        [Authorize(Roles = "Admin")]
+        [Authorize(Policy = "AdminOnly")]
         [HttpDelete("users/{id}")]
         public async Task<IActionResult> DeleteUserAsync(Guid id)
         {
