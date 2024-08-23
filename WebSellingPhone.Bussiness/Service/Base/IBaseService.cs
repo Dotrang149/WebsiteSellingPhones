@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq.Expressions;
 using WebSellingPhone.Bussiness.ViewModel;
 
 namespace WebSellingPhone.Bussiness.Service.Base
@@ -14,9 +9,9 @@ namespace WebSellingPhone.Bussiness.Service.Base
         Task<int> UpdateAsync(T entity);
         Task<bool> DeleteAsync(T entity);
         bool Delete(Guid id);
-        Task<bool> DeleteAsync(Guid id);
+        Task<bool> DeleteAsync(Guid id, Guid productId);
 
-        Task<T?> GetByIdAsync(Guid id);
+        Task<T?> GetByIdAsync(Guid id, Guid productId);
         Task<IEnumerable<T>> GetAllAsync();
 
         Task<PaginatedResult<T>> GetAsync(Expression<Func<T, bool>>? filter = null,
