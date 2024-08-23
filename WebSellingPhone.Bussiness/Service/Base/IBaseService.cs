@@ -9,9 +9,9 @@ namespace WebSellingPhone.Bussiness.Service.Base
         Task<int> UpdateAsync(T entity);
         Task<bool> DeleteAsync(T entity);
         bool Delete(Guid id);
-        Task<bool> DeleteAsync(Guid id, Guid productId);
+        Task<bool> DeleteAsync(Guid id);
 
-        Task<T?> GetByIdAsync(Guid id, Guid productId);
+        Task<T?> GetByIdAsync(Guid id);
         Task<IEnumerable<T>> GetAllAsync();
 
         Task<PaginatedResult<T>> GetAsync(Expression<Func<T, bool>>? filter = null,

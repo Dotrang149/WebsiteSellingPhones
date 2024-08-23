@@ -15,8 +15,6 @@ namespace WebSellingPhone.WebAPI.Controllers
         private readonly IAuthService _authService;
         private readonly UserManager<Users> _userManager;
 
-
-        
         public UserController(IAuthService authService, UserManager<Users> userManager)
         {
             _authService = authService;
