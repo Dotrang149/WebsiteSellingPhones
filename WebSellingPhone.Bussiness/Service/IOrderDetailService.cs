@@ -16,5 +16,10 @@ namespace WebSellingPhone.Bussiness.Service
             string sortBy = "",
             int pageIndex = 1,
             int pageSize = 10);
+
+        Task<IEnumerable<OrderDetail>> GetOrderDetailsByOrderIdAsync(Guid orderId);
+        Task<IEnumerable<OrderDetail>> GetOrderDetailsByProductIdAsync(Guid productId);
     }
+
+   
 }
