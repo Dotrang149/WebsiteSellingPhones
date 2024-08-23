@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using System.Security.Claims;
 using System.Text;
 using System.Text.Json.Serialization;
 using WebSellingPhone.Bussiness.Service;
@@ -79,11 +80,6 @@ builder.Services
     .AddEntityFrameworkStores<PhoneWebDbContext>()
     .AddDefaultTokenProviders();
 
-builder.Services.ConfigureApplicationCookie(options =>
-{
-    options.LoginPath = "api/Auth/login";
-    options.AccessDeniedPath = "/Account/AccessDenied";
-});
 
 
 builder.Services
@@ -107,7 +103,16 @@ builder.Services
             ValidAudience = builder.Configuration["JWT:Audience"],
 
         };
+        options.TokenValidationParameters.RoleClaimType = ClaimTypes.Role;
     });
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminOnly", policy =>
+        policy.RequireRole("Admin"));
+    options.AddPolicy("CustomerOnly", policy =>
+        policy.RequireRole("Customer"));
+});
 
 
 var app = builder.Build();
@@ -127,7 +132,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

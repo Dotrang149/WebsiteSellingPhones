@@ -103,7 +103,10 @@ namespace WebSellingPhone.Bussiness.Service
         new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
         new Claim(JwtRegisteredClaimNames.Email, user.Email),
         new Claim(JwtRegisteredClaimNames.Sub, user.Email),
-        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+        new Claim(ClaimTypes.Role,"Admin"),
+        new Claim(ClaimTypes.Role,"Customer"),
+        new Claim(ClaimTypes.Role,"NO_USER")
     };
 
             var authSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_configuration["JWT:Secret"]));
@@ -173,8 +176,7 @@ namespace WebSellingPhone.Bussiness.Service
             var errors = string.Join(", ", result.Errors.Select(e => e.Description));
             throw new ArgumentException($"The user could not be created. Errors: {errors}");
             
-
-            
+           
         }
 
         public async Task<bool> UpdateUserAsync(Users user)

@@ -19,7 +19,10 @@ namespace WebSellingPhone.Data.Data
                 if (!roleExist)
                 {
                     // Tạo các vai trò nếu chưa tồn tại
-                    roleResult = await roleManager.CreateAsync(new Role { Name = roleName, Description = $"{roleName} role" });
+                    roleResult = await roleManager.CreateAsync(new Role 
+                    {
+                        Name = roleName, Description = $"{roleName} role"
+                    });
                 }
             }
 
