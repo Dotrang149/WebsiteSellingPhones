@@ -1,0 +1,785 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5AD432-2099-4D8C-AC79-30E0226DF668}|WebSellingPhone.WebAPI\\WebSellingPhone.WebAPI.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.webapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5AD432-2099-4D8C-AC79-30E0226DF668}|WebSellingPhone.WebAPI\\WebSellingPhone.WebAPI.csproj|solutionrelative:websellingphone.webapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5AD432-2099-4D8C-AC79-30E0226DF668}|WebSellingPhone.WebAPI\\WebSellingPhone.WebAPI.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.webapi\\controllers\\promotionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5AD432-2099-4D8C-AC79-30E0226DF668}|WebSellingPhone.WebAPI\\WebSellingPhone.WebAPI.csproj|solutionrelative:websellingphone.webapi\\controllers\\promotionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E662B3-18C1-464D-BEC1-5016890F9D06}|WebSellingPhone.Data\\WebSellingPhone.Data.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.data\\data\\phonewebdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E662B3-18C1-464D-BEC1-5016890F9D06}|WebSellingPhone.Data\\WebSellingPhone.Data.csproj|solutionrelative:websellingphone.data\\data\\phonewebdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\viewmodel\\promotionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\viewmodel\\promotionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\viewmodel\\productvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\viewmodel\\productvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E662B3-18C1-464D-BEC1-5016890F9D06}|WebSellingPhone.Data\\WebSellingPhone.Data.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.data\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E662B3-18C1-464D-BEC1-5016890F9D06}|WebSellingPhone.Data\\WebSellingPhone.Data.csproj|solutionrelative:websellingphone.data\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E662B3-18C1-464D-BEC1-5016890F9D06}|WebSellingPhone.Data\\WebSellingPhone.Data.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.data\\models\\promotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E662B3-18C1-464D-BEC1-5016890F9D06}|WebSellingPhone.Data\\WebSellingPhone.Data.csproj|solutionrelative:websellingphone.data\\models\\promotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5AD432-2099-4D8C-AC79-30E0226DF668}|WebSellingPhone.WebAPI\\WebSellingPhone.WebAPI.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.webapi\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5AD432-2099-4D8C-AC79-30E0226DF668}|WebSellingPhone.WebAPI\\WebSellingPhone.WebAPI.csproj|solutionrelative:websellingphone.webapi\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\viewmodel\\mappers\\productmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\viewmodel\\mappers\\productmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\viewmodel\\mappers\\promotionmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\viewmodel\\mappers\\promotionmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\viewmodel\\mappers\\brandmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\viewmodel\\mappers\\brandmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\service\\brandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\service\\brandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E662B3-18C1-464D-BEC1-5016890F9D06}|WebSellingPhone.Data\\WebSellingPhone.Data.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.data\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E662B3-18C1-464D-BEC1-5016890F9D06}|WebSellingPhone.Data\\WebSellingPhone.Data.csproj|solutionrelative:websellingphone.data\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E662B3-18C1-464D-BEC1-5016890F9D06}|WebSellingPhone.Data\\WebSellingPhone.Data.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.data\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E662B3-18C1-464D-BEC1-5016890F9D06}|WebSellingPhone.Data\\WebSellingPhone.Data.csproj|solutionrelative:websellingphone.data\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\service\\promotionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\service\\promotionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\service\\iorderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\service\\iorderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\service\\ipromotionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\service\\ipromotionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\service\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\service\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\service\\ibrandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\service\\ibrandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\service\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\service\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5AD432-2099-4D8C-AC79-30E0226DF668}|WebSellingPhone.WebAPI\\WebSellingPhone.WebAPI.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5AD432-2099-4D8C-AC79-30E0226DF668}|WebSellingPhone.WebAPI\\WebSellingPhone.WebAPI.csproj|solutionrelative:websellingphone.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E662B3-18C1-464D-BEC1-5016890F9D06}|WebSellingPhone.Data\\WebSellingPhone.Data.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.data\\websellingphone.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{68E662B3-18C1-464D-BEC1-5016890F9D06}|WebSellingPhone.Data\\WebSellingPhone.Data.csproj|solutionrelative:websellingphone.data\\websellingphone.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Migrations\\20240823115002_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebSellingPhone.Data\\Migrations\\20240823115002_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5AD432-2099-4D8C-AC79-30E0226DF668}|WebSellingPhone.WebAPI\\WebSellingPhone.WebAPI.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2A5AD432-2099-4D8C-AC79-30E0226DF668}|WebSellingPhone.WebAPI\\WebSellingPhone.WebAPI.csproj|solutionrelative:websellingphone.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\service\\base\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\service\\base\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\service\\base\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\service\\base\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5AD432-2099-4D8C-AC79-30E0226DF668}|WebSellingPhone.WebAPI\\WebSellingPhone.WebAPI.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.webapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5AD432-2099-4D8C-AC79-30E0226DF668}|WebSellingPhone.WebAPI\\WebSellingPhone.WebAPI.csproj|solutionrelative:websellingphone.webapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E662B3-18C1-464D-BEC1-5016890F9D06}|WebSellingPhone.Data\\WebSellingPhone.Data.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.data\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E662B3-18C1-464D-BEC1-5016890F9D06}|WebSellingPhone.Data\\WebSellingPhone.Data.csproj|solutionrelative:websellingphone.data\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E662B3-18C1-464D-BEC1-5016890F9D06}|WebSellingPhone.Data\\WebSellingPhone.Data.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.data\\repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E662B3-18C1-464D-BEC1-5016890F9D06}|WebSellingPhone.Data\\WebSellingPhone.Data.csproj|solutionrelative:websellingphone.data\\repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E662B3-18C1-464D-BEC1-5016890F9D06}|WebSellingPhone.Data\\WebSellingPhone.Data.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.data\\infrastructure\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E662B3-18C1-464D-BEC1-5016890F9D06}|WebSellingPhone.Data\\WebSellingPhone.Data.csproj|solutionrelative:websellingphone.data\\infrastructure\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5AD432-2099-4D8C-AC79-30E0226DF668}|WebSellingPhone.WebAPI\\WebSellingPhone.WebAPI.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.webapi\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5AD432-2099-4D8C-AC79-30E0226DF668}|WebSellingPhone.WebAPI\\WebSellingPhone.WebAPI.csproj|solutionrelative:websellingphone.webapi\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\viewmodel\\mappers\\orderdetailmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\viewmodel\\mappers\\orderdetailmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\viewmodel\\orderdetailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\viewmodel\\orderdetailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\viewmodel\\mappers\\ordermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\viewmodel\\mappers\\ordermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\viewmodel\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\viewmodel\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\viewmodel\\ordervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\viewmodel\\ordervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E662B3-18C1-464D-BEC1-5016890F9D06}|WebSellingPhone.Data\\WebSellingPhone.Data.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.data\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E662B3-18C1-464D-BEC1-5016890F9D06}|WebSellingPhone.Data\\WebSellingPhone.Data.csproj|solutionrelative:websellingphone.data\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E662B3-18C1-464D-BEC1-5016890F9D06}|WebSellingPhone.Data\\WebSellingPhone.Data.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.data\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E662B3-18C1-464D-BEC1-5016890F9D06}|WebSellingPhone.Data\\WebSellingPhone.Data.csproj|solutionrelative:websellingphone.data\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E662B3-18C1-464D-BEC1-5016890F9D06}|WebSellingPhone.Data\\WebSellingPhone.Data.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.data\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E662B3-18C1-464D-BEC1-5016890F9D06}|WebSellingPhone.Data\\WebSellingPhone.Data.csproj|solutionrelative:websellingphone.data\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\viewmodel\\reviewvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\viewmodel\\reviewvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\viewmodel\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\viewmodel\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\viewmodel\\brandvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\viewmodel\\brandvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|c:\\users\\admin\\downloads\\websitesellingphones\\websellingphone.bussiness\\viewmodel\\loginresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ED056C-9153-4791-B21F-A57BC8CEB682}|WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj|solutionrelative:websellingphone.bussiness\\viewmodel\\loginresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 32,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Data\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Models\\Order.cs",
+              "RelativeToolTip": "WebSellingPhone.Data\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T14:10:51.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PromotionService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\Service\\PromotionService.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\Service\\PromotionService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\Service\\PromotionService.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\Service\\PromotionService.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwCcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T13:50:11.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BrandService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\Service\\BrandService.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\Service\\BrandService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\Service\\BrandService.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\Service\\BrandService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T13:44:50.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IOrderDetailService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\Service\\IOrderDetailService.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\Service\\IOrderDetailService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\Service\\IOrderDetailService.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\Service\\IOrderDetailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T13:01:29.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IPromotionService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\Service\\IPromotionService.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\Service\\IPromotionService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\Service\\IPromotionService.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\Service\\IPromotionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T13:01:23.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\Service\\IOrderService.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\Service\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\Service\\IOrderService.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\Service\\IOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T13:01:15.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\Service\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\Service\\ProductService.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\Service\\ProductService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T12:53:22.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "WebSellingPhone.Data",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\WebSellingPhone.Data.csproj",
+              "RelativeDocumentMoniker": "WebSellingPhone.Data\\WebSellingPhone.Data.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\WebSellingPhone.Data.csproj",
+              "RelativeToolTip": "WebSellingPhone.Data\\WebSellingPhone.Data.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-23T11:53:46.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20240823115002_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Migrations\\20240823115002_Initial.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Data\\Migrations\\20240823115002_Initial.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Migrations\\20240823115002_Initial.cs",
+              "RelativeToolTip": "WebSellingPhone.Data\\Migrations\\20240823115002_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T11:50:03.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IBaseService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\Service\\Base\\IBaseService.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\Service\\Base\\IBaseService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\Service\\Base\\IBaseService.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\Service\\Base\\IBaseService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T08:20:21.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Repository\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Data\\Repository\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Repository\\IGenericRepository.cs",
+              "RelativeToolTip": "WebSellingPhone.Data\\Repository\\IGenericRepository.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T08:19:16.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Data\\Repository\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "WebSellingPhone.Data\\Repository\\GenericRepository.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAA6wGkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T08:17:58.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\Service\\Base\\BaseService.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\Service\\Base\\BaseService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\Service\\Base\\BaseService.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\Service\\Base\\BaseService.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAkwE0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T00:54:36.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "OrderDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.WebAPI\\Controllers\\OrderDetailsController.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.WebAPI\\Controllers\\OrderDetailsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.WebAPI\\Controllers\\OrderDetailsController.cs",
+              "RelativeToolTip": "WebSellingPhone.WebAPI\\Controllers\\OrderDetailsController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwFMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T00:46:58.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.WebAPI\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.WebAPI\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.WebAPI\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "WebSellingPhone.WebAPI\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAYwEIAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T00:46:12.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrderDetailMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\Mappers\\OrderDetailMapper.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\ViewModel\\Mappers\\OrderDetailMapper.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\Mappers\\OrderDetailMapper.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\ViewModel\\Mappers\\OrderDetailMapper.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAwwBoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T00:43:21.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PromotionsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.WebAPI\\Controllers\\PromotionsController.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.WebAPI\\Controllers\\PromotionsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.WebAPI\\Controllers\\PromotionsController.cs",
+              "RelativeToolTip": "WebSellingPhone.WebAPI\\Controllers\\PromotionsController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAIwDkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T00:40:27.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PromotionMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\Mappers\\PromotionMapper.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\ViewModel\\Mappers\\PromotionMapper.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\Mappers\\PromotionMapper.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\ViewModel\\Mappers\\PromotionMapper.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T23:35:09.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "OrderMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\Mappers\\OrderMapper.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\ViewModel\\Mappers\\OrderMapper.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\Mappers\\OrderMapper.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\ViewModel\\Mappers\\OrderMapper.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T23:26:02.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Promotion.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Models\\Promotion.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Data\\Models\\Promotion.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Models\\Promotion.cs",
+              "RelativeToolTip": "WebSellingPhone.Data\\Models\\Promotion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T23:25:04.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Data\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Models\\Review.cs",
+              "RelativeToolTip": "WebSellingPhone.Data\\Models\\Review.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T23:25:00.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Data\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Models\\Role.cs",
+              "RelativeToolTip": "WebSellingPhone.Data\\Models\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T23:24:58.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Data\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Models\\Users.cs",
+              "RelativeToolTip": "WebSellingPhone.Data\\Models\\Users.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T23:24:48.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\Mappers\\UserMapper.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\ViewModel\\Mappers\\UserMapper.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\Mappers\\UserMapper.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\ViewModel\\Mappers\\UserMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T23:19:38.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BrandMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\Mappers\\BrandMapper.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\ViewModel\\Mappers\\BrandMapper.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\Mappers\\BrandMapper.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\ViewModel\\Mappers\\BrandMapper.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAIwBgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T23:17:21.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\Service\\IProductService.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\Service\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\Service\\IProductService.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\Service\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T23:10:40.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IBrandService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\Service\\IBrandService.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\Service\\IBrandService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\Service\\IBrandService.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\Service\\IBrandService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T23:10:34.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Data\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Models\\Product.cs",
+              "RelativeToolTip": "WebSellingPhone.Data\\Models\\Product.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAzwA8AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T22:57:31.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PhoneWebDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Data\\PhoneWebDbContext.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Data\\Data\\PhoneWebDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Data\\PhoneWebDbContext.cs",
+              "RelativeToolTip": "WebSellingPhone.Data\\Data\\PhoneWebDbContext.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAYwA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T22:51:37.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Infrastructure\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Data\\Infrastructure\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Infrastructure\\UnitOfWork.cs",
+              "RelativeToolTip": "WebSellingPhone.Data\\Infrastructure\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T22:50:59.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BrandsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.WebAPI\\Controllers\\BrandsController.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.WebAPI\\Controllers\\BrandsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.WebAPI\\Controllers\\BrandsController.cs",
+              "RelativeToolTip": "WebSellingPhone.WebAPI\\Controllers\\BrandsController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAUwFgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T22:43:46.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.WebAPI\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.WebAPI\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.WebAPI\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WebSellingPhone.WebAPI\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAIwDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T22:38:38.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductMappers.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\Mappers\\ProductMappers.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\ViewModel\\Mappers\\ProductMappers.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\Mappers\\ProductMappers.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\ViewModel\\Mappers\\ProductMappers.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAYwCEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T22:38:25.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\ViewModel\\UserViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\UserViewModel.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\ViewModel\\UserViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T22:38:21.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ReviewVm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\ReviewVm.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\ViewModel\\ReviewVm.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\ReviewVm.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\ViewModel\\ReviewVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T22:38:19.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\ViewModel\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\RegisterViewModel.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\ViewModel\\RegisterViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T22:38:16.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductVm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\ProductVm.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\ViewModel\\ProductVm.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\ProductVm.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\ViewModel\\ProductVm.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAYwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T22:38:13.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "PaginatedResult.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\PaginatedResult.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\ViewModel\\PaginatedResult.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\PaginatedResult.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\ViewModel\\PaginatedResult.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T22:37:55.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "OrderVm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\OrderVm.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\ViewModel\\OrderVm.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\OrderVm.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\ViewModel\\OrderVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T22:37:49.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "OrderDetailVm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\OrderDetailVm.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\ViewModel\\OrderDetailVm.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\OrderDetailVm.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\ViewModel\\OrderDetailVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T22:37:45.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "BrandVm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\BrandVm.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\ViewModel\\BrandVm.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\BrandVm.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\ViewModel\\BrandVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T22:37:42.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LoginResponseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\LoginResponseViewModel.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\ViewModel\\LoginResponseViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\LoginResponseViewModel.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\ViewModel\\LoginResponseViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T22:37:38.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PromotionVm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\PromotionVm.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Bussiness\\ViewModel\\PromotionVm.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\ViewModel\\PromotionVm.cs",
+              "RelativeToolTip": "WebSellingPhone.Bussiness\\ViewModel\\PromotionVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T22:37:19.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebSellingPhone.WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebSellingPhone.WebAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-22T22:36:17.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.Data\\Models\\Brand.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\Models\\Brand.cs",
+              "RelativeToolTip": "WebSellingPhone.Data\\Models\\Brand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T22:35:38.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebSellingPhone.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.WebAPI\\Program.cs",
+              "RelativeToolTip": "WebSellingPhone.WebAPI\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T22:32:50.48Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
