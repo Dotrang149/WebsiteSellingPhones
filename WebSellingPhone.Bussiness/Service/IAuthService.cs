@@ -16,7 +16,7 @@ namespace WebSellingPhone.Bussiness.Service
         Task<UserViewModel> GetUserByIdAsync(Guid userId);
         Task<IEnumerable<UserViewModel>> GetAllUsersAsync();
         Task<bool> UpdateCustomerAsync(Guid userId, string newEmail, string newUserName);
-        Task<bool> AdminUpdateUserAsync(Guid id, UserViewModel userView);
+        Task<bool> AdminUpdateUserAsync( UserViewModel userView);
         Task<bool> DeleteUserAsync(Guid userId);
         Task<PaginatedResult<Users>> GetByPagingAsync(
             string filter = "",

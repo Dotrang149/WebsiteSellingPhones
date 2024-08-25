@@ -46,16 +46,27 @@ namespace WebSellingPhone.Bussiness.Service
 
         public async Task<IEnumerable<UserViewModel>> GetAllUsersAsync()
         {
-            var user = await _userManager.Users.ToListAsync();
-            var userVm = user.Select(u => new UserViewModel()
+            var users = await _userManager.Users.ToListAsync();
+            var roles = await _roleManager.Roles.ToListAsync();
+
+            var userVms = new List<UserViewModel>();
+
+            foreach (var user in users)
             {
-                Id = u.Id,
-                Name = u.UserName,
-                Email = u.Email,
-                PhoneNumber = u.PhoneNumber,
-                Password = u.PasswordHash
-            }).ToList();
-            return userVm;
+                var userRoles = await _userManager.GetRolesAsync(user);
+                var userVm = new UserViewModel
+                {
+                    Id = user.Id,
+                    Name = user.UserName,
+                    Email = user.Email,
+                    PhoneNumber = user.PhoneNumber,
+                    Password = user.PasswordHash,
+                    Role = string.Join(",", userRoles)
+                };
+                userVms.Add(userVm);
+            }
+
+            return userVms;
         }
 
         public async Task<UserViewModel> GetUserByIdAsync(Guid userId)
@@ -65,13 +76,16 @@ namespace WebSellingPhone.Bussiness.Service
             {
                 throw new FileNotFoundException($"User with ID {userId} not found.");
             }
+            var userRoles = await _userManager.GetRolesAsync(user);
+
             var userVm = new UserViewModel()
             {
                 Id = user.Id,
                 Name = user.UserName,
                 Email = user.Email,
                 PhoneNumber = user.PhoneNumber,
-                Password = user.PasswordHash
+                Password = user.PasswordHash,
+                Role = string.Join(",", userRoles)
             };
             return userVm;
         }
@@ -193,9 +207,9 @@ namespace WebSellingPhone.Bussiness.Service
            
         }
 
-        public async Task<bool> AdminUpdateUserAsync(Guid userId,UserViewModel userView)
+        public async Task<bool> AdminUpdateUserAsync(UserViewModel userView)
         {
-            var existingUser = await _userManager.FindByIdAsync(userId.ToString());
+            var existingUser = await _userManager.FindByIdAsync(userView.Id.ToString());
 
             if (existingUser != null)
             {

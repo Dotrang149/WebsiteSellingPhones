@@ -47,7 +47,7 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
 
-        [Authorize(Policy = "AdminOnly")]
+        //[Authorize(Policy = "AdminOnly")]
         [HttpGet("Get-All-Users")]
         public async Task<IActionResult> GetUsers()
         {
@@ -56,9 +56,9 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
 
-        [Authorize(Policy = "AdminOnly")]
+        //[Authorize(Policy = "AdminOnly")]
         [HttpGet("Get-by-id/{id}")]
-        public async Task<IActionResult> GetById(Guid Id)
+        public async Task<IActionResult> GetById( Guid Id)
         {
             var userVm = await _authService.GetUserByIdAsync(Id);
             return Ok(userVm);
@@ -66,7 +66,7 @@ namespace WebSellingPhone.WebAPI.Controllers
 
 
 
-        [Authorize(Policy = "AdminOny")]
+        //[Authorize(Policy = "AdminOny")]
         [HttpGet("get-user-by-page")]
         public async Task<IActionResult> GetUsersByPage([FromQuery] int page = 1, [FromQuery] int pageSize = 10, [FromQuery] string filter = "", [FromQuery] string sortBy = "")
         {
@@ -117,7 +117,7 @@ namespace WebSellingPhone.WebAPI.Controllers
 
 
 
-        [Authorize(Policy = "AdminOnly")]
+        //[Authorize(Policy = "AdminOnly")]
         [HttpDelete("users/{id}")]
         public async Task<IActionResult> DeleteUserAsync(Guid id)
         {
@@ -140,19 +140,19 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
 
-        [Authorize(Policy = "AdminOnly")]
+       // [Authorize(Policy = "AdminOnly")]
         [HttpPut("users-by-admin")]
-        public async Task<IActionResult> UpdateByAdmin(Guid id, [FromBody] UserViewModel userViewModel)
+        public async Task<IActionResult> UpdateByAdmin( [FromBody] UserViewModel userViewModel)
         {
             try
             {
-                var existingUser = await _authService.GetUserByIdAsync(id);
+                var existingUser = await _authService.GetUserByIdAsync(userViewModel.Id);
                 if (existingUser == null)
                 {
-                    return NotFound($"User with ID {id} not found.");
+                    return NotFound($"User with ID {userViewModel.Id} not found.");
                 }
 
-                var updated = await _authService.AdminUpdateUserAsync(id,userViewModel);
+                var updated = await _authService.AdminUpdateUserAsync(userViewModel);
                 if (updated)
                 {
                     return Ok();
@@ -196,7 +196,7 @@ namespace WebSellingPhone.WebAPI.Controllers
 
 
 
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         [HttpGet("users/paging")]
         public async Task<IActionResult> GetUsersByPagingAsync(string filter = "", string sortBy = "", int pageIndex = 1, int pageSize = 10)
         {

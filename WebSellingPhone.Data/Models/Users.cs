@@ -4,6 +4,7 @@ namespace WebSellingPhone.Data.Models
 {
     public class Users : IdentityUser<Guid>
     {
+       
         //1-many
         public ICollection<Order> Orders { get; set; }
         public ICollection<Review> Reviews { get; set; }
