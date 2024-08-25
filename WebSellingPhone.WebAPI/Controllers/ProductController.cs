@@ -58,14 +58,11 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
         [HttpPut("update-product/{id}")]
-        public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] ProductVm productVm)
+        public async Task<IActionResult> Update( [FromBody] ProductVm productVm)
         {
-            if (productVm == null || id == Guid.Empty)
-            {
-                return BadRequest("Invalid product data");
-            }
+            
 
-            var exsitingProduct = await _productService.GetByIdAsync(id);
+            var exsitingProduct = await _productService.GetByIdAsync(productVm.Id);
 
             if (exsitingProduct == null)
             {
@@ -73,7 +70,6 @@ namespace WebSellingPhone.WebAPI.Controllers
             }
 
             var updatedProduct = productVm.ToProduct();
-            updatedProduct.Id = id;
 
             var result = await _productService.UpdateAsync(updatedProduct);
 
