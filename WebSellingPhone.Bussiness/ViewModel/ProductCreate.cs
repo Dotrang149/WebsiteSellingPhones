@@ -8,9 +8,11 @@ namespace WebSellingPhone.Bussiness.ViewModel
 {
     public class ProductCreate
     {
-        public string ProductName { get; set; }
-        public string ProductDescription { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
         public decimal Price { get; set; }
         public string Image {  get; set; }
+        public string BrandName { get; set; }
+        public string PromotionName { get; set; }
     }
 }

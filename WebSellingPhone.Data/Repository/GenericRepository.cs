@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
+using WebSellingPhone.Data.Models;
 
 namespace WebSellingPhone.Data.Repository
 {
@@ -64,6 +65,11 @@ namespace WebSellingPhone.Data.Repository
         public async Task<IEnumerable<T>> GetAllAsync()
         {
             return await _dbSet.ToListAsync();
+        }
+
+        public async Task<T?> GetByNameAsync(string name)
+        {
+            return await _dbSet.FindAsync(name);
         }
 
         public T? GetById(Guid id)

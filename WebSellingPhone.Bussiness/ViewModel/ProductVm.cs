@@ -14,6 +14,10 @@ namespace WebSellingPhone.Bussiness.ViewModel
         public string Description { get; set; }
         public decimal Price { get; set; }
         public string Image { get; set; }
-        public Guid BrandProductId { get; set; }
+        public string BrandName { get; set; }
+
+        public string PromotionName { get; set; }
+
+        //public Guid BrandProductId { get; set; }
     }
 }

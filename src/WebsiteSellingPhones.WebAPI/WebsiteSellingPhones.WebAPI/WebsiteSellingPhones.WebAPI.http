@@ -1,6 +1,0 @@
-@WebsiteSellingPhones.WebAPI_HostAddress = http://localhost:5084
-
-GET {{WebsiteSellingPhones.WebAPI_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

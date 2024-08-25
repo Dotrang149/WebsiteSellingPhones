@@ -6,6 +6,8 @@ namespace WebSellingPhone.Bussiness.Service
 {
     public interface  IProductService : IBaseService<Product>
     {
+        Task<Product> CreateProduct(ProductCreate product);
+        Task<Product> UpdateProduct(ProductVm product);
         Task<PaginatedResult<Product>> GetByPagingAsync(
             string filter = "",
             string sortBy = "",
