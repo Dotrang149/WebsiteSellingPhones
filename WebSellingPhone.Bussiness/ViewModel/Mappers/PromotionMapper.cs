@@ -22,11 +22,11 @@ namespace WebSellingPhone.Bussiness.ViewModel.Mappers
             };
         }
 
-        public static Promotion ToBrand(this PromotionVm promotionVm)
+        public static Promotion ToPromotion(this PromotionVm promotionVm)
         {
             return new Promotion
             {
-                Id = promotionVm.Id,
+                Id = (Guid)promotionVm.Id,
                 Name = promotionVm.Name,
                 Description = promotionVm.Description,
                 DateStart = promotionVm.DateStart,

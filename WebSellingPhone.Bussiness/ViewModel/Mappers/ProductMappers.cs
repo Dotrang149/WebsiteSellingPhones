@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using WebSellingPhone.Data.Models;
 
-
 namespace WebSellingPhone.Bussiness.ViewModel.Mappers
 {
     public static class ProductMappers
@@ -19,29 +18,20 @@ namespace WebSellingPhone.Bussiness.ViewModel.Mappers
                 Description = product.Description,
                 Price = product.Price,
                 Image = product.Image,
-                BrandProductId = product.BrandProductId
+               // BrandProductId = product.BrandProductId
             };
         }
 
-        public static Product ToCreateProduct(this ProductCreate productVm)
+        public static Product ToProduct(this ProductVm productVm)
         {
             return new Product
             {
-                Name = productVm.ProductName,
-                Description = productVm.ProductDescription,
-                Price = productVm.Price,
-                Image = productVm.Image
-
-            };
-        }
-        public static Product ToProduct (this ProductVm productVm)
-        {
-            return new Product
-            {
+                Id = productVm.Id,
                 Name = productVm.Name,
                 Description = productVm.Description,
                 Price = productVm.Price,
                 Image = productVm.Image,
+                //BrandProductId = productVm.BrandProductId
 
             };
         }

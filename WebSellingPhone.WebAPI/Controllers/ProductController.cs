@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using WebSellingPhone.Bussiness.Service;
 using WebSellingPhone.Bussiness.ViewModel;
 using WebSellingPhone.Bussiness.ViewModel.Mappers;
@@ -7,7 +6,6 @@ using WebSellingPhone.Data.Models;
 
 namespace WebSellingPhone.WebAPI.Controllers
 {
-    
     [Route("api/[Controller]")]
     [ApiController]
     public class ProductController : ControllerBase
@@ -22,12 +20,12 @@ namespace WebSellingPhone.WebAPI.Controllers
         public async Task<IActionResult> GetAll()
         {
             var products = await _productService.GetAllAsync();
-            var productsViewModels = products.ToList().Select(p => p.ToProductVm());
-            return Ok(productsViewModels);
+            
+            return Ok(products);
         }
 
         [HttpGet("get-by-id/{id}")]
-        public async Task<IActionResult> GetById([FromRoute] Guid id)
+        public async Task<IActionResult> GetById( Guid id)
         {
             var product = await _productService.GetByIdAsync(id);
 
@@ -39,49 +37,26 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
         [HttpPost("create-product")]
-        public async Task<IActionResult> Create([FromBody] ProductVm productVm)
-        { 
-            if (productVm == null)
+        public async Task<IActionResult> Create([FromBody] ProductCreate productCreate)
+        {
+            var product = await _productService.CreateProduct(productCreate);
+            if (product == null)
             {
-                return BadRequest("Product data is null");
+                return BadRequest("Fail");
             }
-
-            var product = productVm.ToProduct();
-
-            var result = await _productService.AddAsync(product);
-
-            if (result > 0)
-            {
-                return CreatedAtAction(nameof(GetById), new { id = product.Id}, product.ToProductVm());
-            }
-            return BadRequest("Failed to create product");
+            return Ok();
         }
 
         [HttpPut("update-product/{id}")]
         public async Task<IActionResult> Update( [FromBody] ProductVm productVm)
         {
-            
-
-            var exsitingProduct = await _productService.GetByIdAsync(productVm.Id);
-
-            if (exsitingProduct == null)
-            {
-                return NotFound();
-            }
-
-            var updatedProduct = productVm.ToProduct();
-
-            var result = await _productService.UpdateAsync(updatedProduct);
-
-            if (result > 0)
-            {
-                return NoContent();
-            }
-            return BadRequest("Failed to update product");
+            var product = await _productService.UpdateProduct(productVm);
+            return Ok(product);
         }
 
+
         [HttpDelete("delete-product/{id}")]
-        public async Task<IActionResult> Delete([FromRoute] Guid id)
+        public async Task<IActionResult> Delete(Guid id)
         {
             if (id == Guid.Empty)
             {
@@ -92,7 +67,7 @@ namespace WebSellingPhone.WebAPI.Controllers
 
             if (result)
             {
-                return NoContent();
+                return Ok();
             }
             return NotFound();
         }
@@ -100,7 +75,7 @@ namespace WebSellingPhone.WebAPI.Controllers
         [HttpGet("get-products-by-paging")]
         public async Task<IActionResult> GetByPaging([FromQuery] string filter = "", [FromQuery] string sortBy = "", [FromQuery] int pageIndex = 1, [FromQuery] int pageSize = 10)
         {
-            var paginatedProducts = await _productService.GetByPagingAsync(filter, sortBy, pageIndex, pageSize);    
+            var paginatedProducts = await _productService.GetByPagingAsync(filter, sortBy, pageIndex, pageSize);
             return Ok(paginatedProducts);
         }
     }

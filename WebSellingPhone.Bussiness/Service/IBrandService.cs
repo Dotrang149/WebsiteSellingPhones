@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WebSellingPhone.Bussiness.Service.Base;
+﻿using WebSellingPhone.Bussiness.Service.Base;
 using WebSellingPhone.Bussiness.ViewModel;
 using WebSellingPhone.Data.Models;
 
@@ -11,6 +6,9 @@ namespace WebSellingPhone.Bussiness.Service
 {
     public interface IBrandService : IBaseService<Brand>
     {
+
+        //Task<Brand> CreateBrand(BrandCreate brandCreate);
+        //Task<Brand> UpdateProduct(BrandVm brand);
         Task<PaginatedResult<Brand>> GetByPagingAsync(
             string filter = "",
             string sortBy = "",
