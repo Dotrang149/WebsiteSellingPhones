@@ -26,7 +26,7 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
         [HttpGet("get-by-id/{id}")]
-        public async Task<IActionResult> GetById([FromRoute] Guid id)
+        public async Task<IActionResult> GetById( Guid id)
         {
             var promotion = await _promotionService.GetByIdAsync(id);
 
@@ -38,14 +38,20 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
         [HttpPost("create-promotion")]
-        public async Task<IActionResult> Create([FromBody] PromotionVm promotionVm)
+        public async Task<IActionResult> Create([FromBody] PromotionCreate promotionVm)
         {
             if (promotionVm == null)
             {
                 return BadRequest("Promotion data is null");
             }
 
-            var promotion = promotionVm.ToPromotion();
+            var promotion = new Promotion
+            {
+                Name = promotionVm.Name,
+                Description = promotionVm.Description,
+                DateStart = promotionVm.DateStart,
+                DateEnd = promotionVm.DateEnd
+            };
             var result = await _promotionService.AddAsync(promotion);
 
             if (result > 0)
@@ -57,14 +63,14 @@ namespace WebSellingPhone.WebAPI.Controllers
 
 
         [HttpPut("update-promotion/{id}")]
-        public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] PromotionVm promotionVm)
+        public async Task<IActionResult> Update([FromBody] PromotionVm promotionVm)
         {
-            if (promotionVm == null || id == Guid.Empty)
+            if (promotionVm == null )
             {
                 return BadRequest("Dữ liệu khuyến mãi không hợp lệ.");
             }
 
-            var existingPromotion = await _promotionService.GetByIdAsync(id);
+            var existingPromotion = await _promotionService.GetByIdAsync(promotionVm.Id);
 
             if (existingPromotion == null)
             {

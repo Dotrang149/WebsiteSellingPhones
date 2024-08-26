@@ -11,6 +11,9 @@ namespace WebSellingPhone.Bussiness.Service
 {
     public interface IPromotionService : IBaseService<Promotion>
     {
+        //Task<Promotion> CreatePromotion(PromotionCreate promotionCreate);
+        //Task<Promotion> UpdatePromotion(PromotionVm promotion);
+
         Task<PaginatedResult<Promotion>> GetByPagingAsync(
             string filter = "",
             string sortBy = "",

@@ -29,7 +29,7 @@ namespace WebSellingPhone.Bussiness.Service
             if (brand == null)
             {
                 // Nếu chưa tồn tại, tạo một Brand mới
-                brand = new Brand { Name = productDto.BrandName };
+                brand = new Brand { Name = productDto.BrandName,Description = "null" };
                 _unitOfWork.BrandRepository.Add(brand);
                 await _unitOfWork.SaveChangesAsync();
             }
@@ -70,7 +70,7 @@ namespace WebSellingPhone.Bussiness.Service
             if (brand == null)
             {
                 // Nếu chưa tồn tại, tạo một Brand mới
-                brand = new Brand { Name = productVm.BrandName };
+                brand = new Brand { Name = productVm.BrandName,Description = "null" };
                  _unitOfWork.BrandRepository.Add(brand);
                 await _unitOfWork.SaveChangesAsync();
             }

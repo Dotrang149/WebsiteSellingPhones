@@ -21,12 +21,11 @@ namespace WebSellingPhone.WebAPI.Controllers
         public async Task<IActionResult> GetAll()
         {
             var brands = await _brandService.GetAllAsync();
-            var brandsViewModels = brands.Select(b => b.ToBrandVm());
-            return Ok(brandsViewModels);
+            return Ok(brands);
         }
 
         [HttpGet("get-by-id/{id}")]
-        public async Task<IActionResult> GetById([FromRoute] Guid id)
+        public async Task<IActionResult> GetById( Guid id)
         {
             var brand = await _brandService.GetByIdAsync(id);
 
@@ -38,14 +37,18 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
         [HttpPost("create-brand")]
-        public async Task<IActionResult> Create([FromBody] BrandVm brandVm)
+        public async Task<IActionResult> Create([FromBody] BrandCreate brandVm)
         {
             if (brandVm == null)
             {
                 return BadRequest("Brand data is null");
             }
 
-            var brand = brandVm.ToBrand();
+            var brand = new Brand
+            {
+                Name = brandVm.Name,
+                Description = brandVm.Description
+            };
 
             var result = await _brandService.AddAsync(brand);
 
@@ -57,14 +60,14 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
         [HttpPut("update-brand/{id}")]
-        public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] BrandVm brandVm)
+        public async Task<IActionResult> Update( [FromBody] BrandVm brandVm)
         {
-            if (brandVm == null || id == Guid.Empty)
+            if (brandVm == null )
             {
                 return BadRequest("Dữ liệu thương hiệu không hợp lệ.");
             }
 
-            var existingBrand = await _brandService.GetByIdAsync(id);
+            var existingBrand = await _brandService.GetByIdAsync(brandVm.Id);
 
             if (existingBrand == null)
             {
