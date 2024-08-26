@@ -14,6 +14,7 @@ namespace WebSellingPhone.Bussiness.Service
         Task<LoginResponseViewModel> RegisterAsync(RegisterViewModel registerViewModel);
 
         Task<UserViewModel> GetUserByIdAsync(Guid userId);
+        Task<UserViewModel> GetUserByEmail (string email);
         Task<IEnumerable<UserViewModel>> GetAllUsersAsync();
         Task<bool> UpdateCustomerAsync(Guid userId, string newEmail, string newUserName);
         Task<bool> AdminUpdateUserAsync( UserViewModel userView);
