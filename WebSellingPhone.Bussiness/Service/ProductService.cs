@@ -87,7 +87,7 @@ namespace WebSellingPhone.Bussiness.Service
         }
 
 
-        public async Task<PaginatedResult<Product>> GetByPagingAsync(string filter = "", string sortBy = "", int pageIndex = 1, int pageSize = 10)
+        public async Task<PaginatedResult<Product>> GetByPagingAsync(string filter = "", string sortBy = "", int pageIndex = 1, int pageSize = 20)
         {
             Func<IQueryable<Product>, IOrderedQueryable<Product>> orderBy = null;
             switch (sortBy.ToLower())

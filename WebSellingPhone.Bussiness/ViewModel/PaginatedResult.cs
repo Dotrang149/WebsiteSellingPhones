@@ -16,10 +16,10 @@ namespace WebSellingPhone.Bussiness.ViewModel
         public PaginatedResult(List<T> items, int count, int pageIndex, int pageSize)
         {
             PageIndex = pageIndex;
-            TotalPages = (int)Math.Ceiling(count / pageSize * 1.0);
+            TotalPages =(int) Math.Ceiling(count * 1.0 / pageSize );
 
             Items = items.ToArray();
-
+            Console.WriteLine(TotalPages.ToString());
         }
 
         public bool HasPreviousPage => PageIndex > 1;
@@ -29,6 +29,7 @@ namespace WebSellingPhone.Bussiness.ViewModel
         public static async Task<PaginatedResult<T>> CreateAsync(IQueryable<T> query, int pageIndex, int pageSize)
         {
             var count = await query.CountAsync();
+            Console.WriteLine(count.ToString());
             var items = await query.Skip((pageIndex - 1) * pageSize).Take(pageSize).ToListAsync();
             return new PaginatedResult<T>(items, count, pageIndex, pageSize);
         }

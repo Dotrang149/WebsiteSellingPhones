@@ -22,6 +22,6 @@ namespace WebSellingPhone.Bussiness.Service
             string filter = "",
             string sortBy = "",
             int pageIndex = 1,
-            int pageSize = 10);
+            int pageSize = 20);
     }
 }

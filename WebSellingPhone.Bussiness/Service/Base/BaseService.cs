@@ -105,7 +105,7 @@ namespace WebSellingPhone.Bussiness.Service.Base
             Func<IQueryable<T>, IOrderedQueryable<T>>? orderBy = null,
             string includeProperties = "",
             int pageIndex = 1,
-            int pageSize = 10)
+            int pageSize = 20)
         {
             var query = _unitOfWork.GenericRepository<T>().Get(filter, orderBy, includeProperties);
 

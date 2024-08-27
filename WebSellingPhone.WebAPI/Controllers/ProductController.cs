@@ -73,7 +73,7 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
         [HttpGet("get-products-by-paging")]
-        public async Task<IActionResult> GetByPaging([FromQuery] string filter = "", [FromQuery] string sortBy = "", [FromQuery] int pageIndex = 1, [FromQuery] int pageSize = 10)
+        public async Task<IActionResult> GetByPaging([FromQuery] string filter = "", [FromQuery] string sortBy = "", [FromQuery] int pageIndex = 1, [FromQuery] int pageSize = 20)
         {
             var paginatedProducts = await _productService.GetByPagingAsync(filter, sortBy, pageIndex, pageSize);
             return Ok(paginatedProducts);

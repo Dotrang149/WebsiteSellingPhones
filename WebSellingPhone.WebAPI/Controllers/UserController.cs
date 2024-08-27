@@ -198,7 +198,7 @@ namespace WebSellingPhone.WebAPI.Controllers
 
         //[Authorize(Roles = "Admin")]
         [HttpGet("users/paging")]
-        public async Task<IActionResult> GetUsersByPagingAsync(string filter = "", string sortBy = "", int pageIndex = 1, int pageSize = 10)
+        public async Task<IActionResult> GetUsersByPagingAsync(string filter = "", string sortBy = "", int pageIndex = 1, int pageSize = 20)
         {
             try
             {
