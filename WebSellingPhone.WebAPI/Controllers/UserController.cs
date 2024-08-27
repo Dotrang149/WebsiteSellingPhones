@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebSellingPhone.Bussiness.Service;
 using WebSellingPhone.Bussiness.ViewModel;
 using WebSellingPhone.Data.Models;
@@ -82,17 +83,18 @@ namespace WebSellingPhone.WebAPI.Controllers
             try
             {
                 var loginResponse = await _authService.RegisterAsync(register);
-                return Created(nameof(Register), $"User {register.Email} created!");
+                return Created(nameof(Register), new { message = $"User {register.Email} created!" });
             }
             catch (ArgumentException ex)
             {
-                return BadRequest(ex.Message);
+                return BadRequest(new { message = ex.Message });
             }
             catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while registering the user.");
+                return StatusCode(StatusCodes.Status500InternalServerError, new { message = ex.Message });
             }
         }
+
 
 
 
@@ -211,5 +213,66 @@ namespace WebSellingPhone.WebAPI.Controllers
             }
         }
 
+        [HttpPut("update-password")]
+        public async Task<IActionResult> UpdatePasswordAsync([FromBody] UpdatePasswordRequestVm request)
+        {
+            if (request == null || string.IsNullOrEmpty(request.Username) ||
+                string.IsNullOrEmpty(request.Email) || string.IsNullOrEmpty(request.NewPassword) ||
+                request.NewPassword != request.ConfirmPassword)
+            {
+                return BadRequest(new
+                {
+                    Success = false,
+                    Message = "Invalid request data.",
+                    Errors = new[] { "Username, Email, and New Password are required. New Password and Confirm Password must match." }
+                });
+            }
+
+            var user = await _userManager.Users.SingleOrDefaultAsync(u => u.UserName == request.Username && u.Email == request.Email);
+            if (user == null)
+            {
+                return NotFound(new
+                {
+                    Success = false,
+                    Message = "No user found with the provided username and email."
+                });
+            }
+
+            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+            var result = await _userManager.ResetPasswordAsync(user, token, request.NewPassword);
+
+            if (result.Succeeded)
+            {
+                return Ok(new
+                {
+                    Success = true,
+                    Message = "Password reset successfully."
+                });
+            }
+
+            var errors = result.Errors.Select(e => e.Description).ToArray();
+            return BadRequest(new
+            {
+                Success = false,
+                Message = "Failed to reset password.",
+                Errors = errors
+            });
+        }
+
+
+
+
+        [HttpGet("verify-user")]
+        public async Task<IActionResult> VerifyUserAsync([FromQuery] string username, [FromQuery] string email)
+        {
+            var user = await _userManager.Users.SingleOrDefaultAsync(u => u.UserName == username && u.Email == email);
+
+            if (user == null)
+            {
+                return NotFound(new { message = "No user found with the provided username and email." });
+            }
+
+            return Ok(new { message = "User exists." });
+        }
     }
 }

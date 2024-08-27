@@ -14,6 +14,15 @@ using WebSellingPhone.Data.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Add policy to work for login.
+builder.Services.AddCors(option =>
+{
+    option.AddPolicy("MyPolicy", builder =>
+    {
+        builder.WithOrigins("http://localhost:4200/").AllowAnyMethod().AllowAnyHeader();
+    });
+});
+
 // Add services to the container.   
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -162,6 +171,10 @@ app.UseCors(options =>
 });
 
 app.UseHttpsRedirection();
+
+app.UseCors("MyPolicy");
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

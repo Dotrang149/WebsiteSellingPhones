@@ -262,6 +262,30 @@ namespace WebSellingPhone.Bussiness.Service
 
             return await GetAsync(filterQuery, orderBy, "", pageIndex, pageSize);
         }
+
+        public async Task<UserViewModel> GetUserByEmail(string email)
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+
+            if (user == null)
+            {
+                throw new FileNotFoundException($"User with email {email} not found.");
+            }
+
+            var userRoles = await _userManager.GetRolesAsync(user);
+
+            var userVm = new UserViewModel
+            {
+                Id = user.Id,
+                Name = user.UserName,
+                Email = user.Email,
+                PhoneNumber = user.PhoneNumber,
+                Password = user.PasswordHash,
+                Role = string.Join(",", userRoles)
+            };
+
+            return userVm;
+        }
     }
 
         
