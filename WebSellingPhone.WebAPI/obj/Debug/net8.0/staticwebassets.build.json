@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8qeo2jKLlBPRRU1KEVYCjR3u7ztrt4p0uWvlf0wb1G8=",
+  "Source": "WebSellingPhone.WebAPI",
+  "BasePath": "_content/WebSellingPhone.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

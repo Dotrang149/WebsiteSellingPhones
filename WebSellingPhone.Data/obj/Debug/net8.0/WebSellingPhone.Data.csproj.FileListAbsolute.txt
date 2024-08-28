@@ -1,0 +1,15 @@
+D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.Data\bin\Debug\net8.0\WebSellingPhone.Data.deps.json
+D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.Data\bin\Debug\net8.0\WebSellingPhone.Data.runtimeconfig.json
+D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.Data\bin\Debug\net8.0\WebSellingPhone.Data.dll
+D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.Data\bin\Debug\net8.0\WebSellingPhone.Data.pdb
+D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.Data\obj\Debug\net8.0\WebSellingPhone.Data.csproj.AssemblyReference.cache
+D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.Data\obj\Debug\net8.0\WebSellingPhone.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.Data\obj\Debug\net8.0\WebSellingPhone.Data.AssemblyInfoInputs.cache
+D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.Data\obj\Debug\net8.0\WebSellingPhone.Data.AssemblyInfo.cs
+D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.Data\obj\Debug\net8.0\WebSellingPhone.Data.csproj.CoreCompileInputs.cache
+D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.Data\obj\Debug\net8.0\WebSellingPhone.Data.sourcelink.json
+D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.Data\obj\Debug\net8.0\WebSellingPhone.Data.dll
+D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.Data\obj\Debug\net8.0\refint\WebSellingPhone.Data.dll
+D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.Data\obj\Debug\net8.0\WebSellingPhone.Data.pdb
+D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.Data\obj\Debug\net8.0\WebSellingPhone.Data.genruntimeconfig.cache
+D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.Data\obj\Debug\net8.0\ref\WebSellingPhone.Data.dll
