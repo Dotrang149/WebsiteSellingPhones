@@ -9,6 +9,8 @@ using WebSellingPhone.Data.Models;
 
 namespace WebSellingPhone.WebAPI.Controllers
 {
+
+    
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
@@ -48,7 +50,7 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
 
-        //[Authorize(Policy = "AdminOnly")]
+        [Authorize(Policy = "AdminOnly")]
         [HttpGet("Get-All-Users")]
         public async Task<IActionResult> GetUsers()
         {
@@ -57,22 +59,12 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
 
-        //[Authorize(Policy = "AdminOnly")]
+        [Authorize(Policy = "AdminOnly")]
         [HttpGet("Get-by-id/{id}")]
         public async Task<IActionResult> GetById( Guid Id)
         {
             var userVm = await _authService.GetUserByIdAsync(Id);
             return Ok(userVm);
-        }
-
-
-
-        //[Authorize(Policy = "AdminOny")]
-        [HttpGet("get-user-by-page")]
-        public async Task<IActionResult> GetUsersByPage([FromQuery] int page = 1, [FromQuery] int pageSize = 10, [FromQuery] string filter = "", [FromQuery] string sortBy = "")
-        {
-
-            return Ok(_authService.GetByPagingAsync(filter, sortBy, page, pageSize));
         }
 
 
@@ -119,7 +111,7 @@ namespace WebSellingPhone.WebAPI.Controllers
 
 
 
-        //[Authorize(Policy = "AdminOnly")]
+        [Authorize(Policy = "AdminOnly")]
         [HttpDelete("users/{id}")]
         public async Task<IActionResult> DeleteUserAsync(Guid id)
         {
@@ -142,7 +134,7 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
 
-       // [Authorize(Policy = "AdminOnly")]
+        [Authorize(Policy = "AdminOnly")]
         [HttpPut("users-by-admin")]
         public async Task<IActionResult> UpdateByAdmin( [FromBody] UserViewModel userViewModel)
         {

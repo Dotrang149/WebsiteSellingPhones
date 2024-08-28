@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WebSellingPhone.Bussiness.Service;
 using WebSellingPhone.Bussiness.ViewModel;
 using WebSellingPhone.Bussiness.ViewModel.Mappers;
@@ -6,6 +7,7 @@ using WebSellingPhone.Data.Models;
 
 namespace WebSellingPhone.WebAPI.Controllers
 {
+    [Authorize(Policy ="AdminOnly")]
     [Route("api/[Controller]")]
     [ApiController]
     public class ProductController : ControllerBase

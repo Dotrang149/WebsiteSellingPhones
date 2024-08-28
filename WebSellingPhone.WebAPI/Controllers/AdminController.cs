@@ -8,7 +8,7 @@ using WebSellingPhone.Data.Models;
 
 namespace WebSellingPhone.WebAPI.Controllers
 {
-    //[Authorize(Policy = "AdminOnly")]
+    [Authorize(Policy = "AdminOnly")]
     [ApiController]
     [Route("api/[controller]")]
     public class AdminController : ControllerBase

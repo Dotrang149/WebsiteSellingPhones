@@ -37,7 +37,7 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
 
-        [Authorize(Policy = "AdminOnly")]
+        
         [HttpGet("get-order/{id}")]
         public async Task<IActionResult> GetOrderById(Guid id)
         {
