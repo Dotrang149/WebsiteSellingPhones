@@ -22,7 +22,7 @@ namespace WebSellingPhone.WebAPI.Controllers
             _context = context;
         }
 
-        [HttpGet("get-by-productid/id={productId}")]
+        [HttpGet("get-by-productid/{productId}")]
         public async Task<ActionResult<IEnumerable<Review>>> GetReviewsByProduct(Guid productId, [FromQuery] int pageIndex = 1, [FromQuery] int pageSize = 10)
         {
             var reviews = await _context.Reviews
@@ -36,7 +36,7 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
         
-        [HttpGet("get-by-userid/id={userId}")]
+        [HttpGet("get-by-userid/{userId}")]
         public async Task<ActionResult<IEnumerable<Review>>> GetReviewsByUser(Guid userId, [FromQuery] int pageIndex = 1, [FromQuery] int pageSize = 10)
         {
             var reviews = await _context.Reviews
@@ -49,26 +49,48 @@ namespace WebSellingPhone.WebAPI.Controllers
             return Ok(reviews);
         }
 
-        
+
         [HttpPost("add-comment")]
-        public async Task<ActionResult<Review>> CreateReview(Review review)
+        public async Task<ActionResult<Review>> CreateReview([FromBody] ReviewVm reviewVm)
         {
-            _context.Reviews.Add(new Review
+            var review = new Review
             {
-                Comment = review.Comment
-            });
+                Comment = reviewVm.Comment,
+                UserId = reviewVm.UserId,
+                ProductId = reviewVm.ProductId
+            };
+
+            _context.Reviews.Add(review);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetReviewsByProduct", new { productId = review.ProductId }, review);
         }
 
 
-        [HttpPut("update-commnet-user/{userId}/product/{productId}")]
-        public async Task<IActionResult> UpdateReviewComment(Guid userId, Guid productId, [FromBody] string newComment)
+
+        [HttpPut("update-comment")]
+        public async Task<IActionResult> UpdateReviewComment([FromBody] ReviewVm reviewVm)
         {
             var review = await _context.Reviews
-                .Include(r => r.User)
-                .Include(r => r.Products)
+                .FirstOrDefaultAsync(r => r.UserId == reviewVm.UserId && r.ProductId == reviewVm.ProductId);
+
+            if (review == null)
+            {
+                return NotFound();
+            }
+
+            review.Comment = reviewVm.Comment;
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+
+
+        [HttpDelete("delete-comment")]
+        public async Task<IActionResult> DeleteReview([FromQuery] Guid userId, [FromQuery] Guid productId)
+        {
+            var review = await _context.Reviews
                 .FirstOrDefaultAsync(r => r.UserId == userId && r.ProductId == productId);
 
             if (review == null)
@@ -76,24 +98,12 @@ namespace WebSellingPhone.WebAPI.Controllers
                 return NotFound();
             }
 
-            review.Comment = newComment;
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
-
-
-        [HttpDelete("delete-comment/{userId}/{productId}")]
-        public async Task<IActionResult> DeleteReview(Guid userId, Guid productId)
-        {
-            var review = await _context.Reviews.FindAsync(userId, productId);
-            if (review == null)
-                return NotFound();
-
             _context.Reviews.Remove(review);
             await _context.SaveChangesAsync();
 
             return Ok();
         }
+
+
     }
 }

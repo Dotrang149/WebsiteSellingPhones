@@ -103,6 +103,8 @@ namespace WebSellingPhone.Bussiness.Service
 
             return new LoginResponseViewModel
             {
+                Id = user.Id,
+                UserName = user.UserName,
                 Token = token.Token,
                 RefershToken = token.RefershToken,
                 Expires = token.Expires

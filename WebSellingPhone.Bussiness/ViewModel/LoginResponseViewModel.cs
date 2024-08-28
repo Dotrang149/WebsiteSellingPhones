@@ -8,6 +8,8 @@ namespace WebSellingPhone.Bussiness.ViewModel
 {
     public class LoginResponseViewModel
     {
+        public Guid Id { get; set; }
+        public string UserName { get; set; }
         public required string Token { get; set; }
         public required string RefershToken { get; set; }
         public DateTime Expires { get; set; }

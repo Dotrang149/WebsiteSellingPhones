@@ -59,7 +59,7 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
 
-        [Authorize(Policy = "AdminOnly")]
+        //[Authorize(Policy = "AdminOnly")]
         [HttpGet("Get-by-id/{id}")]
         public async Task<IActionResult> GetById( Guid Id)
         {
