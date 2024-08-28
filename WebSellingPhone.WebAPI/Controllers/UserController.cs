@@ -50,7 +50,7 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
 
-        [Authorize(Policy = "AdminOnly")]
+        //[Authorize(Policy = "AdminOnly")]
         [HttpGet("Get-All-Users")]
         public async Task<IActionResult> GetUsers()
         {
@@ -61,9 +61,9 @@ namespace WebSellingPhone.WebAPI.Controllers
 
         //[Authorize(Policy = "AdminOnly")]
         [HttpGet("Get-by-id/{id}")]
-        public async Task<IActionResult> GetById( Guid Id)
+        public async Task<IActionResult> GetById( Guid id)
         {
-            var userVm = await _authService.GetUserByIdAsync(Id);
+            var userVm = await _authService.GetUserByIdAsync(id);
             return Ok(userVm);
         }
 

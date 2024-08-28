@@ -11,6 +11,14 @@ namespace WebSellingPhone.Data
 
         }
 
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    if (!optionsBuilder.IsConfigured)
+        //    {
+        //        optionsBuilder.UseSqlServer("Server=TRANGDO;database=Sang04;Trusted_connection=true;TrustServerCertificate=true");
+        //    }
+        //}
+
 
         public DbSet<Users> Users { get; set; }
         public DbSet<Brand> Brands { get; set; }
