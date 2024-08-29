@@ -74,7 +74,17 @@ namespace WebSellingPhone.Data
                 .HasOne(r => r.User)
                 .WithMany(u => u.Reviews)
                 .HasForeignKey(r => r.UserId);
+            modelBuilder.Entity<Order>()
+       .Property(o => o.TotalAmount)
+       .HasColumnType("decimal(18,2)");
 
+            modelBuilder.Entity<OrderDetail>()
+                .Property(od => od.Price)
+                .HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<Product>()
+                .Property(p => p.Price)
+                .HasColumnType("decimal(18,2)");
 
         }
     }

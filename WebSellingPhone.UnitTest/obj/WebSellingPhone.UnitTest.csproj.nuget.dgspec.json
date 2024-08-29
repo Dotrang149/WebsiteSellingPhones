@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Nam 3\\Ky2\\.Net\\Mock Project\\api\\Sang04\\WebsiteSellingPhones\\WebSellingPhone.UnitTest\\WebSellingPhone.UnitTest.csproj": {}
+    "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.UnitTest\\WebSellingPhone.UnitTest.csproj": {}
   },
   "projects": {
-    "D:\\Nam 3\\Ky2\\.Net\\Mock Project\\api\\Sang04\\WebsiteSellingPhones\\WebSellingPhone.UnitTest\\WebSellingPhone.UnitTest.csproj": {
+    "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.UnitTest\\WebSellingPhone.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Nam 3\\Ky2\\.Net\\Mock Project\\api\\Sang04\\WebsiteSellingPhones\\WebSellingPhone.UnitTest\\WebSellingPhone.UnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.UnitTest\\WebSellingPhone.UnitTest.csproj",
         "projectName": "WebSellingPhone.UnitTest",
-        "projectPath": "D:\\Nam 3\\Ky2\\.Net\\Mock Project\\api\\Sang04\\WebsiteSellingPhones\\WebSellingPhone.UnitTest\\WebSellingPhone.UnitTest.csproj",
-        "packagesPath": "C:\\Users\\MSI moden 14\\.nuget\\packages\\",
-        "outputPath": "D:\\Nam 3\\Ky2\\.Net\\Mock Project\\api\\Sang04\\WebsiteSellingPhones\\WebSellingPhone.UnitTest\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.UnitTest\\WebSellingPhone.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.UnitTest\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\MSI moden 14\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -107,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

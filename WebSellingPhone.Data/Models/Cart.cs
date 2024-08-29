@@ -9,7 +9,7 @@ namespace WebSellingPhone.Data.Models
     public class Cart
     {
         public List<CartItem> Items { get; set; } = new List<CartItem>();
-        public void AddItem(int productId, string productName, decimal price, int quantity)
+        public void AddItem(Guid productId, string productName, decimal price, int quantity)
         {
             var item = Items.FirstOrDefault(i => i.ProductId == productId);
             if (item != null)
@@ -28,7 +28,7 @@ namespace WebSellingPhone.Data.Models
             }
         }
 
-        public void RemoveItem(int productId)
+        public void RemoveItem(Guid productId)
         {
             var item = Items.FirstOrDefault(i => i.ProductId == productId);
             if (item != null)
