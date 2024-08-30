@@ -23,18 +23,16 @@ namespace WebSellingPhone.UnitTest
         }
 
         [Fact]
-        public void AddToCart_ValidInput_ReturnsOkResult()
+        public async Task AddToCart_ValidInput_ReturnsOkResult()
         {
             // Arrange
             var productId = Guid.NewGuid();
-            var productName = "Product A";
-            decimal price = 100m;
             int quantity = 2;
 
-            _mockCartService.Setup(service => service.AddToCart(productId, productName, price, quantity));
+            _mockCartService.Setup(service => service.AddToCart(productId, quantity)).Returns(Task.CompletedTask);
 
             // Act
-            var result = _controller.AddToCart(productId, productName, price, quantity);
+            var result = await _controller.AddToCart(productId, quantity);
 
             // Assert
             result.Should().BeOfType<OkObjectResult>().Which.Value.Should().Be("Product added to cart successfully!");
@@ -46,11 +44,11 @@ namespace WebSellingPhone.UnitTest
             // Arrange
             var cart = new Cart
             {
-                Items =
-                [
-                    new() { ProductId = Guid.NewGuid(), ProductName = "Product A", Price = 100m, Quantity = 2 },
-                    new() { ProductId = Guid.NewGuid(), ProductName = "Product B", Price = 200m, Quantity = 1 }
-                ]
+                Items = new List<CartItem>
+                {
+                    new CartItem { ProductId = Guid.NewGuid(), ProductName = "Product A", Price = 100m, Quantity = 2 },
+                    new CartItem { ProductId = Guid.NewGuid(), ProductName = "Product B", Price = 200m, Quantity = 1 }
+                }
             };
 
             _mockCartService.Setup(service => service.GetCurrentCart()).Returns(cart);
@@ -65,3 +63,4 @@ namespace WebSellingPhone.UnitTest
         }
     }
 }
+
