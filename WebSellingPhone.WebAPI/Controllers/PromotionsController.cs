@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WebSellingPhone.Bussiness.Service;
 using WebSellingPhone.Bussiness.ViewModel;
 using WebSellingPhone.Bussiness.ViewModel.Mappers;
@@ -26,7 +27,7 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
         [HttpGet("get-by-id/{id}")]
-        public async Task<IActionResult> GetById( Guid id)
+        public async Task<IActionResult> GetById(Guid id)
         {
             var promotion = await _promotionService.GetByIdAsync(id);
 
@@ -36,7 +37,7 @@ namespace WebSellingPhone.WebAPI.Controllers
             }
             return Ok(promotion.ToPromotionVm());
         }
-
+        [Authorize(Policy = "AdminOnly")]
         [HttpPost("create-promotion")]
         public async Task<IActionResult> Create([FromBody] PromotionCreate promotionVm)
         {
@@ -61,11 +62,11 @@ namespace WebSellingPhone.WebAPI.Controllers
             return BadRequest("Failed to create promotion");
         }
 
-
+        [Authorize(Policy = "AdminOnly")]
         [HttpPut("update-promotion/{id}")]
         public async Task<IActionResult> Update([FromBody] PromotionVm promotionVm)
         {
-            if (promotionVm == null )
+            if (promotionVm == null)
             {
                 return BadRequest("Dữ liệu khuyến mãi không hợp lệ.");
             }
@@ -94,7 +95,7 @@ namespace WebSellingPhone.WebAPI.Controllers
             return BadRequest("Cập nhật khuyến mãi thất bại.");
         }
 
-
+        [Authorize(Policy = "AdminOnly")]
         [HttpDelete("delete-promotion/{id}")]
         public async Task<IActionResult> Delete([FromRoute] Guid id)
         {
