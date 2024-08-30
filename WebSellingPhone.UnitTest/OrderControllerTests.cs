@@ -125,5 +125,55 @@ namespace WebSellingPhone.UnitTest
             // Assert
             result.Should().BeOfType<NotFoundResult>();
         }
+
+        [Fact]
+        public async Task GetOrdersByUserId_ReturnsOkResult_WhenOrdersExist()
+        {
+            // Arrange
+            var userId = Guid.NewGuid();
+            var orders = new List<Order>
+    {
+        new Order { Id = Guid.NewGuid(), TotalAmount = 100, PaymentMethod = "Credit Card", UserOrderId = userId },
+        new Order { Id = Guid.NewGuid(), TotalAmount = 50, PaymentMethod = "PayPal", UserOrderId = userId }
+    };
+
+            var mockOrderService = new Mock<IOrderService>();
+            mockOrderService.Setup(service => service.GetOrdersByUserIdAsync(userId))
+                            .ReturnsAsync(orders);
+
+            var controller = new OrderController(mockOrderService.Object);
+
+            // Act
+            var result = await controller.GetOrdersByUserId(userId) as OkObjectResult;
+
+            // Assert
+            Assert.NotNull(result);
+            Assert.Equal(200, result.StatusCode);
+
+            var ordersViewModels = result.Value as List<OrderVm>;
+            Assert.NotNull(ordersViewModels);
+            Assert.Equal(2, ordersViewModels.Count);
+            Assert.Equal(orders[0].Id, ordersViewModels[0].Id);
+            Assert.Equal(orders[1].Id, ordersViewModels[1].Id);
+        }
+
+        [Fact]
+        public async Task GetOrdersByUserId_ReturnsNotFound_WhenNoOrdersExist()
+        {
+            // Arrange
+            var userId = Guid.NewGuid();
+            var mockOrderService = new Mock<IOrderService>();
+            mockOrderService.Setup(service => service.GetOrdersByUserIdAsync(userId))
+                            .ReturnsAsync((List<Order>)null); // No orders found
+
+            var controller = new OrderController(mockOrderService.Object);
+
+            // Act
+            var result = await controller.GetOrdersByUserId(userId);
+
+            // Assert
+            Assert.IsType<NotFoundResult>(result);
+        }
+
     }
 }

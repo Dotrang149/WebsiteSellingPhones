@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WebSellingPhone.Bussiness.Service.Base;
 using WebSellingPhone.Bussiness.ViewModel;
+using WebSellingPhone.Data;
 using WebSellingPhone.Data.Infrastructure;
 using WebSellingPhone.Data.Models;
 
@@ -14,7 +16,11 @@ namespace WebSellingPhone.Bussiness.Service
 {
     public class OrderService: BaseService<Order>, IOrderService
     {
-        public OrderService(IUnitOfWork unitOfWork, ILogger<OrderService> logger) : base(unitOfWork, logger) { }
+        private readonly PhoneWebDbContext _context;
+        public OrderService(IUnitOfWork unitOfWork, ILogger<OrderService> logger, PhoneWebDbContext context) : base(unitOfWork, logger)
+        {
+            _context = context;
+        }
 
 
         public async Task<PaginatedResult<Order>> GetByPagingAsync(string filter = "", string sortBy = "", int pageIndex = 1, int pageSize = 10)
@@ -43,6 +49,11 @@ namespace WebSellingPhone.Bussiness.Service
 
         }
 
-
+        public async Task<IEnumerable<Order>> GetOrdersByUserIdAsync(Guid userId)
+        {
+            return await _context.Orders
+                                 .Where(o => o.UserOrderId == userId)
+                                 .ToListAsync();
+        }
     }
 }

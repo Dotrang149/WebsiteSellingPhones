@@ -17,5 +17,8 @@ namespace WebSellingPhone.Bussiness.Service
             string sortBy = "",
             int pageIndex = 1,
             int pageSize = 10);
+
+        Task<IEnumerable<Order>> GetOrdersByUserIdAsync(Guid userId);
+
     }
 }
