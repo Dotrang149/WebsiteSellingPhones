@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebSellingPhone.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f39346d79cc7122d228f9a0722f68dd78516abc7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ab53d6dca457888c8f3c139a4f37e87158dc3f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebSellingPhone.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebSellingPhone.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
