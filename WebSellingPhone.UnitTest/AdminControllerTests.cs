@@ -7,6 +7,7 @@ using Xunit;
 using FluentAssertions;
 using System.Threading.Tasks;
 using WebSellingPhone.Bussiness.ViewModel;
+using static WebSellingPhone.WebAPI.Controllers.AdminController;
 
 
 namespace WebSellingPhone.UnitTest
