@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
@@ -15,7 +15,7 @@ using WebSellingPhone.Data.Models;
 
 namespace WebSellingPhone.Bussiness.Service
 {
-    public class AuthService : BaseService<Users>,IAuthService
+    public class AuthService : BaseService<Users>, IAuthService
     {
         private readonly UserManager<Users> _userManager;
         private readonly RoleManager<Role> _roleManager;
@@ -25,7 +25,7 @@ namespace WebSellingPhone.Bussiness.Service
 
         public AuthService(UserManager<Users> userManager,
             RoleManager<Role> roleManager,
-            IConfiguration configuration,PhoneWebDbContext context, IUnitOfWork unitOfWork, ILogger<AuthService> logger) : base(unitOfWork,logger)
+            IConfiguration configuration, PhoneWebDbContext context, IUnitOfWork unitOfWork, ILogger<AuthService> logger) : base(unitOfWork, logger)
         {
             _userManager = userManager;
             _roleManager = roleManager;
@@ -120,7 +120,7 @@ namespace WebSellingPhone.Bussiness.Service
         new Claim(JwtRegisteredClaimNames.Email, user.Email),
         new Claim(JwtRegisteredClaimNames.Sub, user.Email),
         new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-        
+
     };
 
             if (await _userManager.IsInRoleAsync(user, "Admin"))
@@ -189,7 +189,7 @@ namespace WebSellingPhone.Bussiness.Service
                 PasswordHash = registerViewModel.Password,
                 Email = registerViewModel.Email,
                 PhoneNumber = registerViewModel.PhoneNumber
-               
+
             };
 
             var result = await _userManager.CreateAsync(user, registerViewModel.Password);
@@ -205,8 +205,8 @@ namespace WebSellingPhone.Bussiness.Service
             }
             var errors = string.Join(", ", result.Errors.Select(e => e.Description));
             throw new ArgumentException($"The user could not be created. Errors: {errors}");
-            
-           
+
+
         }
 
         public async Task<bool> AdminUpdateUserAsync(UserViewModel userView)
@@ -288,14 +288,6 @@ namespace WebSellingPhone.Bussiness.Service
 
             return userVm;
         }
-    }
-
-        
-
-    
-
-        
-
-       
-   }
+    }    
+}
 
