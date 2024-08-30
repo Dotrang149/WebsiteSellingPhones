@@ -1,7 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using WebSellingPhone.Bussiness.Service;
 using WebSellingPhone.Bussiness.ViewModel;
 using WebSellingPhone.Data.Models;
@@ -118,6 +116,3 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
     }
 }
-
-   
-

@@ -75,7 +75,13 @@ namespace WebSellingPhone.WebAPI.Controllers
             try
             {
                 var loginResponse = await _authService.RegisterAsync(register);
-                return Created(nameof(Register), new { message = $"User {register.Email} created!" });
+
+                if (loginResponse == null)
+                {
+                    return BadRequest(new { message = "Registration failed" });
+                }
+
+                return Created(nameof(Register), loginResponse);
             }
             catch (ArgumentException ex)
             {
@@ -86,7 +92,6 @@ namespace WebSellingPhone.WebAPI.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, new { message = ex.Message });
             }
         }
-
 
 
 
@@ -252,8 +257,6 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
 
-
-
         [HttpGet("verify-user")]
         public async Task<IActionResult> VerifyUserAsync([FromQuery] string username, [FromQuery] string email)
         {
@@ -267,4 +270,4 @@ namespace WebSellingPhone.WebAPI.Controllers
             return Ok(new { message = "User exists." });
         }
     }
-}
+}   

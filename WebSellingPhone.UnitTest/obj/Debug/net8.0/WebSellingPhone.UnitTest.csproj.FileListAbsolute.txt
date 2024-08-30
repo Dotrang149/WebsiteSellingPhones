@@ -1,411 +1,174 @@
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\testhost.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\testhost.exe
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\NUnit3.TestAdapter.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\NUnit3.TestAdapter.pdb
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\nunit.engine.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\nunit.engine.api.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\nunit.engine.core.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\testcentric.engine.metadata.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\WebSellingPhone.UnitTest.deps.json
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\WebSellingPhone.UnitTest.runtimeconfig.json
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\WebSellingPhone.UnitTest.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\WebSellingPhone.UnitTest.pdb
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Azure.Core.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Azure.Identity.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Humanizer.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.CoreUtilities.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.PlatformAbstractions.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.CommunicationUtilities.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.CrossPlatEngine.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.Utilities.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.Common.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Mono.TextTemplating.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Newtonsoft.Json.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\NuGet.Frameworks.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\nunit.framework.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.CodeDom.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Composition.AttributedModel.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Composition.Convention.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Composition.Hosting.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Composition.Runtime.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Composition.TypedParts.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Drawing.Common.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Memory.Data.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Runtime.Caching.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Security.Permissions.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Windows.Extensions.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.csproj.AssemblyReference.cache
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.GeneratedMSBuildEditorConfig.editorconfig
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.AssemblyInfoInputs.cache
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.AssemblyInfo.cs
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.csproj.CoreCompileInputs.cache
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.sourcelink.json
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSelli.593E8FA7.Up2Date
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\refint\WebSellingPhone.UnitTest.dll
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.pdb
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.genruntimeconfig.cache
-D:\Nam 3\Ky2\.Net\Mock Project\api\Sang04\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\ref\WebSellingPhone.UnitTest.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\testhost.exe
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\testhost.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\NUnit3.TestAdapter.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\NUnit3.TestAdapter.pdb
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\nunit.engine.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\nunit.engine.api.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\nunit.engine.core.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\testcentric.engine.metadata.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\WebSellingPhone.UnitTest.deps.json
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\WebSellingPhone.UnitTest.runtimeconfig.json
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\WebSellingPhone.UnitTest.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\WebSellingPhone.UnitTest.pdb
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Azure.Core.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Azure.Identity.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Humanizer.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.CoreUtilities.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.PlatformAbstractions.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.CommunicationUtilities.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.CrossPlatEngine.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.Utilities.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.Common.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Mono.TextTemplating.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\NuGet.Frameworks.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\nunit.framework.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.CodeDom.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Composition.AttributedModel.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Composition.Convention.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Composition.Hosting.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Composition.Runtime.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Composition.TypedParts.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Memory.Data.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Runtime.Caching.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Text.Json.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.csproj.AssemblyReference.cache
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.AssemblyInfoInputs.cache
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.AssemblyInfo.cs
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.csproj.CoreCompileInputs.cache
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.sourcelink.json
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSelli.593E8FA7.Up2Date
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\refint\WebSellingPhone.UnitTest.dll
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.pdb
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.genruntimeconfig.cache
-C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\ref\WebSellingPhone.UnitTest.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\CoverletSourceRootsMapping_WebSellingPhone.UnitTest
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\testhost.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\WebSellingPhone.WebAPI.deps.json
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\WebSellingPhone.WebAPI.runtimeconfig.json
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\appsettings.Development.json
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\appsettings.json
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\WebSellingPhone.WebAPI.exe
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\testhost.exe
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\xunit.runner.reporters.netcoreapp10.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\xunit.runner.utility.netcoreapp10.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\WebSellingPhone.UnitTest.deps.json
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\WebSellingPhone.UnitTest.runtimeconfig.json
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\WebSellingPhone.UnitTest.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\WebSellingPhone.UnitTest.pdb
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Azure.Core.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Azure.Identity.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Castle.Core.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\FluentAssertions.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.CoreUtilities.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.Utilities.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Moq.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\NuGet.Frameworks.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Memory.Data.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\xunit.abstractions.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\xunit.assert.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\xunit.core.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\xunit.execution.dotnet.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\WebSellingPhone.Bussiness.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\WebSellingPhone.Data.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\WebSellingPhone.WebAPI.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\WebSellingPhone.Bussiness.pdb
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\WebSellingPhone.Data.pdb
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\WebSellingPhone.WebAPI.pdb
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.csproj.AssemblyReference.cache
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.AssemblyInfoInputs.cache
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.AssemblyInfo.cs
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.csproj.CoreCompileInputs.cache
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.sourcelink.json
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSelli.593E8FA7.Up2Date
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\refint\WebSellingPhone.UnitTest.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.pdb
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\WebSellingPhone.UnitTest.genruntimeconfig.cache
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\obj\Debug\net8.0\ref\WebSellingPhone.UnitTest.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.UnitTest\bin\Debug\net8.0\Moq.EntityFrameworkCore.dll

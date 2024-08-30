@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebSellingPhone.Bussiness.Service;
 using WebSellingPhone.Bussiness.ViewModel;
@@ -50,7 +49,16 @@ namespace WebSellingPhone.WebAPI.Controllers
                 {
                     return NotFound();
                 }
-                return Ok(orderDetails);
+
+                var orderDetailViewModels = orderDetails.Select(od => new OrderDetailVm
+                {
+                    Price = od.Price,
+                    Quantity = od.Quantity,
+                    ProductId = od.ProductId,
+                    OrderId = od.OrderId
+                }).ToList();
+
+                return Ok(orderDetailViewModels);
             }
             catch (Exception ex)
             {
@@ -71,7 +79,16 @@ namespace WebSellingPhone.WebAPI.Controllers
                 {
                     return NotFound();
                 }
-                return Ok(orderDetails);
+
+                var orderDetailViewModels = orderDetails.Select(od => new OrderDetailVm
+                {
+                    Price = od.Price,
+                    Quantity = od.Quantity,
+                    ProductId = od.ProductId,
+                    OrderId = od.OrderId
+                }).ToList();
+
+                return Ok(orderDetailViewModels);
             }
             catch (Exception ex)
             {

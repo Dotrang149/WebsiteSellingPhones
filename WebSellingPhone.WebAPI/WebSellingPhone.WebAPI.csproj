@@ -23,7 +23,6 @@
   <ItemGroup>
     <ProjectReference Include="..\WebSellingPhone.Bussiness\WebSellingPhone.Bussiness.csproj" />
     <ProjectReference Include="..\WebSellingPhone.Data\WebSellingPhone.Data.csproj" />
-    <ProjectReference Include="..\WebSellingPhone.UnitTest\WebSellingPhone.UnitTest.csproj" />
   </ItemGroup>
 
 </Project>
