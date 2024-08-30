@@ -16,11 +16,19 @@ namespace WebSellingPhone.WebAPI.Controllers
             _cartService = cartService;
         }
 
+
         [HttpPost("add-to-cart")]
-        public IActionResult AddToCart(Guid productId, string productName, decimal price, int quantity)
+        public async Task<IActionResult> AddToCart(Guid productId, int quantity)
         {
-            _cartService.AddToCart(productId, productName, price, quantity);
-            return Ok("Product added to cart successfully!");
+            try
+            {
+                await _cartService.AddToCart(productId, quantity);
+                return Ok("Product added to cart successfully!");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         /*[HttpPost("add-to-cart")]
@@ -39,6 +47,12 @@ namespace WebSellingPhone.WebAPI.Controllers
 
             return Ok("Product added to cart successfully!");
         }*/
+        [HttpPost("remove-from-cart")]
+        public IActionResult RemoveFromCart(Guid productId)
+        {
+            _cartService.RemoveFromCart(productId);
+            return Ok("Product removed from cart successfully!");
+        }
 
         [HttpGet("get-cart")]
         public IActionResult GetCart()
@@ -48,3 +62,4 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
     }
 }
+
