@@ -5417,24 +5417,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.WebAPI\\WebSellingPhone.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\final_1\\WebsiteSellingPhones\\WebSellingPhone.WebAPI\\WebSellingPhone.WebAPI.csproj",
       "projectName": "WebSellingPhone.WebAPI",
-      "projectPath": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.WebAPI\\WebSellingPhone.WebAPI.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\final_1\\WebsiteSellingPhones\\WebSellingPhone.WebAPI\\WebSellingPhone.WebAPI.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\final_1\\WebsiteSellingPhones\\WebSellingPhone.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5442,20 +5437,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj"
+            "C:\\Users\\Admin\\Desktop\\final_1\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\final_1\\WebsiteSellingPhones\\WebSellingPhone.Bussiness\\WebSellingPhone.Bussiness.csproj"
             },
-            "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\WebSellingPhone.Data.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\WebSellingPhone.Data.csproj"
+            "C:\\Users\\Admin\\Desktop\\final_1\\WebsiteSellingPhones\\WebSellingPhone.Data\\WebSellingPhone.Data.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\final_1\\WebsiteSellingPhones\\WebSellingPhone.Data\\WebSellingPhone.Data.csproj"
             },
-            "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.UnitTest\\WebSellingPhone.UnitTest.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.UnitTest\\WebSellingPhone.UnitTest.csproj"
+            "C:\\Users\\Admin\\Desktop\\final_1\\WebsiteSellingPhones\\WebSellingPhone.UnitTest\\WebSellingPhone.UnitTest.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\final_1\\WebsiteSellingPhones\\WebSellingPhone.UnitTest\\WebSellingPhone.UnitTest.csproj"
             }
           }
         }
@@ -5519,7 +5515,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

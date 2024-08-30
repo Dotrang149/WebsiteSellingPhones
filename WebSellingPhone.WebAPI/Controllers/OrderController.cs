@@ -37,7 +37,27 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
 
-        
+        [HttpGet("get-orders-by-userId/{userId}")]
+        public async Task<IActionResult> GetOrdersByUserId(Guid userId)
+        {
+            var orders = await _orderService.GetOrdersByUserIdAsync(userId);
+
+            if (orders == null || !orders.Any())
+            {
+                return NotFound();
+            }
+
+            var ordersViewModels = orders.Select(q => new OrderVm()
+            {
+                Id = q.Id,
+                TotalAmount = q.TotalAmount,
+                PaymentMethod = q.PaymentMethod,
+                UserOrderId = q.UserOrderId,
+            }).ToList();
+
+            return Ok(ordersViewModels);
+        }
+
         [HttpGet("get-order/{id}")]
         public async Task<IActionResult> GetOrderById(Guid id)
         {

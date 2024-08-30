@@ -41,7 +41,7 @@ namespace WebSellingPhone.WebAPI.Controllers
             }
             return Ok(product.ToProductVm());
         }
-
+        [Authorize(Policy = "AdminOnly")]
         [HttpPost("create-product")]
         public async Task<IActionResult> Create([FromBody] ProductCreate productCreate)
         {
@@ -52,7 +52,7 @@ namespace WebSellingPhone.WebAPI.Controllers
             }
             return Ok();
         }
-
+        [Authorize(Policy = "AdminOnly")]
         [HttpPut("update-product/{id}")]
         public async Task<IActionResult> Update( [FromBody] ProductVm productVm)
         {
@@ -60,7 +60,7 @@ namespace WebSellingPhone.WebAPI.Controllers
             return Ok(product);
         }
 
-
+        [Authorize(Policy = "AdminOnly")]
         [HttpDelete("delete-product/{id}")]
         public async Task<IActionResult> Delete(Guid id)
         {

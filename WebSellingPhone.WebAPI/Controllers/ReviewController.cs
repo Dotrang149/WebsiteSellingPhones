@@ -10,7 +10,7 @@ using WebSellingPhone.Data.Models;
 namespace WebSellingPhone.WebAPI.Controllers
 {
 
-    [Authorize(Policy = "CustomerOnly")]
+    
     [Route("api/[controller]")]
     [ApiController]
     public class ReviewController : ControllerBase
@@ -49,7 +49,7 @@ namespace WebSellingPhone.WebAPI.Controllers
             return Ok(reviews);
         }
 
-
+        [Authorize(Policy = "CustomerOnly")]
         [HttpPost("add-comment")]
         public async Task<ActionResult<Review>> CreateReview([FromBody] ReviewVm reviewVm)
         {
@@ -67,7 +67,7 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
 
-
+        [Authorize(Policy = "CustomerOnly")]
         [HttpPut("update-comment")]
         public async Task<IActionResult> UpdateReviewComment([FromBody] ReviewVm reviewVm)
         {
@@ -86,7 +86,7 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
 
-
+        [Authorize(Policy = "CustomerOnly")]
         [HttpDelete("delete-comment")]
         public async Task<IActionResult> DeleteReview([FromQuery] Guid userId, [FromQuery] Guid productId)
         {

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WebSellingPhone.Bussiness.Service;
 using WebSellingPhone.Bussiness.ViewModel;
 using WebSellingPhone.Bussiness.ViewModel.Mappers;
@@ -6,6 +7,7 @@ using WebSellingPhone.Data.Models;
 
 namespace WebSellingPhone.WebAPI.Controllers
 {
+    
     [Route("api/[Controller]")]
     [ApiController]
     public class BrandsController : ControllerBase
@@ -35,7 +37,7 @@ namespace WebSellingPhone.WebAPI.Controllers
             }
             return Ok(brand.ToBrandVm());
         }
-
+        [Authorize(Policy = "AdminOnly")]
         [HttpPost("create-brand")]
         public async Task<IActionResult> Create([FromBody] BrandCreate brandVm)
         {
@@ -58,7 +60,7 @@ namespace WebSellingPhone.WebAPI.Controllers
             }
             return BadRequest("Failed to create brand");
         }
-
+        [Authorize(Policy = "AdminOnly")]
         [HttpPut("update-brand/{id}")]
         public async Task<IActionResult> Update( [FromBody] BrandVm brandVm)
         {
@@ -90,7 +92,7 @@ namespace WebSellingPhone.WebAPI.Controllers
             return BadRequest("Cập nhật thương hiệu thất bại.");
         }
 
-
+        [Authorize(Policy = "AdminOnly")]
         [HttpDelete("delete-brand/{id}")]
         public async Task<IActionResult> Delete([FromRoute] Guid id)
         {

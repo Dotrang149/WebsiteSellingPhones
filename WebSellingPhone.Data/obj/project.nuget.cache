@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hL/NufGi9PptXlry7RoKQ3AUIwjBa1KKjlIyQRv3SJXS4AxGqJ/6xul4Y1Nwq6VezJz0QSLbnLV4RJtZ1RhFsA==",
+  "dgSpecHash": "PLJP3XhkjgY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Downloads\\WebsiteSellingPhones\\WebSellingPhone.Data\\WebSellingPhone.Data.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\final_1\\WebsiteSellingPhones\\WebSellingPhone.Data\\WebSellingPhone.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

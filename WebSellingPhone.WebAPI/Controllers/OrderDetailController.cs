@@ -20,7 +20,7 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
 
-        [Authorize(Policy = "AdminOnly")]
+        
         [HttpGet("get-all-order")]
         public async Task<IActionResult> GetQuizzes()
         {
@@ -39,7 +39,7 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
 
-        [Authorize(Policy = "AdminOnly")]
+        
         [HttpGet("order/{orderId}")]
         public async Task<IActionResult> GetOrderDetailsByOrderIdAsync(Guid orderId)
         {
@@ -60,7 +60,7 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
 
-        [Authorize(Policy = "AdminOnly")]
+        
         [HttpGet("product/{productId}")]
         public async Task<IActionResult> GetOrderDetailsByProductIdAsync(Guid productId)
         {
@@ -81,8 +81,8 @@ namespace WebSellingPhone.WebAPI.Controllers
         }
 
 
-        [Authorize(Policy = "AdminOnly")]
-        [HttpPost]
+        
+        [HttpPost("create-orderDetail")]
         public async Task<IActionResult> CreateOrderDetailAsync([FromBody] OrderDetailVm orderDetailVm)
         {
             try
