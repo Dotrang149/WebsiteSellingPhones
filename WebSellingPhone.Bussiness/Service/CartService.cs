@@ -1,12 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Threading.Tasks;
 using WebSellingPhone.Bussiness.Extensions;
 using WebSellingPhone.Bussiness.Service.Base;
-using WebSellingPhone.Bussiness.ViewModel;
 using WebSellingPhone.Data.Infrastructure;
 using WebSellingPhone.Data.Models;
 
@@ -15,14 +10,16 @@ namespace WebSellingPhone.Bussiness.Service
     public class CartService : BaseService<Cart>, ICartService
     {
         private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly IProductService _productService;
 
-        public CartService(IUnitOfWork unitOfWork, ILogger<CartService> logger, IHttpContextAccessor httpContextAccessor)
+        public CartService(IUnitOfWork unitOfWork, ILogger<CartService> logger, IHttpContextAccessor httpContextAccessor, IProductService productService)
             : base(unitOfWork, logger)
         {
             _httpContextAccessor = httpContextAccessor;
+            _productService = productService;
         }
 
-         public Cart GetCurrentCart()
+        public Cart GetCurrentCart()
         {
             var session = _httpContextAccessor.HttpContext.Session;
             var cart = session.GetObjectFromJson<Cart>("Cart");
@@ -36,10 +33,23 @@ namespace WebSellingPhone.Bussiness.Service
             return cart;
         }
 
-         public void AddToCart(Guid productId, string productName, decimal price, int quantity)
+        public async Task AddToCart(Guid productId, int quantity)
+        {
+            var product = await _productService.GetByIdAsync(productId);
+            if (product == null)
+            {
+                throw new Exception("Product not found");
+            }
+
+            var cart = GetCurrentCart();
+            cart.AddItem(productId, product.Name, product.Price, quantity);
+            SaveCart(cart);
+        }
+
+        public void RemoveFromCart(Guid productId)
         {
             var cart = GetCurrentCart();
-            cart.AddItem(productId, productName, price, quantity);
+            cart.RemoveItem(productId);
             SaveCart(cart);
         }
 
@@ -47,27 +57,6 @@ namespace WebSellingPhone.Bussiness.Service
         {
             _httpContextAccessor.HttpContext.Session.SetObjectAsJson("Cart", cart);
         }
-
-        /*public async Task<PaginatedResult<Cart>> GetByPagingAsync(string filter = "", string sortBy = "", int pageIndex = 1, int pageSize = 10)
-        {
-            Func<IQueryable<Cart>, IOrderedQueryable<Cart>> orderBy = null;
-            switch (sortBy.ToLower())
-            {
-                case "":
-                    
-                    break;
-                case "date":
-                    orderBy = c => c.OrderBy(c => c.CreatedDate);
-                    break;
-            }
-
-            Expression<Func<Cart, bool>> filterQuery = null;
-            if (!string.IsNullOrWhiteSpace(filter))
-            {
-                filterQuery = c => c.Items.Any(i => i.ProductName.Contains(filter));
-            }
-
-            return await GetAsync(filterQuery, orderBy, "", pageIndex, pageSize);
-        }*/
     }
+
 }
