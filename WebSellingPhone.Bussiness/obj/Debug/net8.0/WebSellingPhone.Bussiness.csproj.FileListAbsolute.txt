@@ -34,6 +34,7 @@ C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.Bussiness\obj\Debu
 C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.Bussiness\obj\Debug\net8.0\WebSellingPhone.Bussiness.pdb
 C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.Bussiness\obj\Debug\net8.0\WebSellingPhone.Bussiness.genruntimeconfig.cache
 C:\Users\Admin\Downloads\WebsiteSellingPhones\WebSellingPhone.Bussiness\obj\Debug\net8.0\ref\WebSellingPhone.Bussiness.dll
+<<<<<<< HEAD
 C:\Users\Admin\Desktop\final_1\WebsiteSellingPhones\WebSellingPhone.Bussiness\bin\Debug\net8.0\WebSellingPhone.Bussiness.deps.json
 C:\Users\Admin\Desktop\final_1\WebsiteSellingPhones\WebSellingPhone.Bussiness\bin\Debug\net8.0\WebSellingPhone.Bussiness.runtimeconfig.json
 C:\Users\Admin\Desktop\final_1\WebsiteSellingPhones\WebSellingPhone.Bussiness\bin\Debug\net8.0\WebSellingPhone.Bussiness.dll
@@ -52,3 +53,23 @@ C:\Users\Admin\Desktop\final_1\WebsiteSellingPhones\WebSellingPhone.Bussiness\ob
 C:\Users\Admin\Desktop\final_1\WebsiteSellingPhones\WebSellingPhone.Bussiness\obj\Debug\net8.0\WebSellingPhone.Bussiness.pdb
 C:\Users\Admin\Desktop\final_1\WebsiteSellingPhones\WebSellingPhone.Bussiness\obj\Debug\net8.0\WebSellingPhone.Bussiness.genruntimeconfig.cache
 C:\Users\Admin\Desktop\final_1\WebsiteSellingPhones\WebSellingPhone.Bussiness\obj\Debug\net8.0\ref\WebSellingPhone.Bussiness.dll
+=======
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.Bussiness\bin\Debug\net8.0\WebSellingPhone.Bussiness.deps.json
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.Bussiness\bin\Debug\net8.0\WebSellingPhone.Bussiness.runtimeconfig.json
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.Bussiness\bin\Debug\net8.0\WebSellingPhone.Bussiness.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.Bussiness\bin\Debug\net8.0\WebSellingPhone.Bussiness.pdb
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.Bussiness\bin\Debug\net8.0\WebSellingPhone.Data.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.Bussiness\bin\Debug\net8.0\WebSellingPhone.Data.pdb
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.Bussiness\obj\Debug\net8.0\WebSellingPhone.Bussiness.csproj.AssemblyReference.cache
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.Bussiness\obj\Debug\net8.0\WebSellingPhone.Bussiness.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.Bussiness\obj\Debug\net8.0\WebSellingPhone.Bussiness.AssemblyInfoInputs.cache
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.Bussiness\obj\Debug\net8.0\WebSellingPhone.Bussiness.AssemblyInfo.cs
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.Bussiness\obj\Debug\net8.0\WebSellingPhone.Bussiness.csproj.CoreCompileInputs.cache
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.Bussiness\obj\Debug\net8.0\WebSellingPhone.Bussiness.sourcelink.json
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.Bussiness\obj\Debug\net8.0\WebSelli.A4A675D1.Up2Date
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.Bussiness\obj\Debug\net8.0\WebSellingPhone.Bussiness.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.Bussiness\obj\Debug\net8.0\refint\WebSellingPhone.Bussiness.dll
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.Bussiness\obj\Debug\net8.0\WebSellingPhone.Bussiness.pdb
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.Bussiness\obj\Debug\net8.0\WebSellingPhone.Bussiness.genruntimeconfig.cache
+D:\source\repos\WebsiteSellingPhones\WebSellingPhone.Bussiness\obj\Debug\net8.0\ref\WebSellingPhone.Bussiness.dll
+>>>>>>> origin/UnitTest

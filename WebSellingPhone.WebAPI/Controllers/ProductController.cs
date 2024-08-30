@@ -94,7 +94,7 @@ namespace WebSellingPhone.WebAPI.Controllers
             if (maxPrice.HasValue && !string.IsNullOrEmpty(brand))
             {
                 var normalizedBrand = brand.ToLower(); // Hoặc brand.ToUpper()
-                query = query.Where(p => p.Price <= maxPrice.Value && p.Brand.Name.ToLower() == normalizedBrand);
+                query = query.Where(p => p.Price <= maxPrice.Value && p.Brand.Name.Equals(normalizedBrand, StringComparison.CurrentCultureIgnoreCase));
             }
             else if (maxPrice.HasValue)
             {

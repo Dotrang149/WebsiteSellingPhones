@@ -103,7 +103,5 @@ namespace WebSellingPhone.WebAPI.Controllers
 
             return Ok();
         }
-
-
     }
 }

@@ -1,6 +1,4 @@
-﻿using Azure.Core;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using WebSellingPhone.Bussiness.ViewModel;
@@ -110,8 +108,8 @@ namespace WebSellingPhone.WebAPI.Controllers
 
         public class RemoveRoleRequest
         {
-            public string UserId { get; set; }
-            public string RoleName { get; set; }
+            public string? UserId { get; set; }
+            public string? RoleName { get; set; }
         }
 
         public class CreateRoleRequest

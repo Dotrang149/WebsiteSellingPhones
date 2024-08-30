@@ -17,7 +17,12 @@ namespace WebSellingPhone.Bussiness.Service
     public class OrderService: BaseService<Order>, IOrderService
     {
         private readonly PhoneWebDbContext _context;
+<<<<<<< HEAD
         public OrderService(IUnitOfWork unitOfWork, ILogger<OrderService> logger,PhoneWebDbContext context) : base(unitOfWork, logger) {
+=======
+        public OrderService(IUnitOfWork unitOfWork, ILogger<OrderService> logger, PhoneWebDbContext context) : base(unitOfWork, logger)
+        {
+>>>>>>> origin/UnitTest
             _context = context;
         }
 
@@ -54,7 +59,10 @@ namespace WebSellingPhone.Bussiness.Service
                                  .Where(o => o.UserOrderId == userId)
                                  .ToListAsync();
         }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/UnitTest
     }
 }
